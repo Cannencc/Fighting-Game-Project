@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetBool("run", horizontalInput != 0);
-        anim.SetBool("jump", verticalInput != 0);
         anim.SetBool("fall", body.velocity.y < 0);
         anim.SetBool("grounded", grounded);
     }
@@ -36,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, speedJ);
+        anim.SetTrigger("jump");
         grounded = false;
     }
 
