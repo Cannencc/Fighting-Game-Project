@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 2c96a67e6e8d328498c6e86646d8941f
+guid: 7fb51a422c4a36e40b71b06331a74b11
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2806060530409525734
-    second: B_witch_take_damage_0
+      213: 21300000
+    second: SlideDust_0
   - first:
-      213: -6812477826016509834
-    second: B_witch_take_damage_1
+      213: 21300002
+    second: SlideDust_1
   - first:
-      213: -3410013055211595750
-    second: B_witch_take_damage_2
+      213: 21300004
+    second: SlideDust_2
+  - first:
+      213: 21300006
+    second: SlideDust_3
+  - first:
+      213: 21300008
+    second: SlideDust_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,9 +47,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -55,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +76,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -83,7 +89,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -95,81 +101,111 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: B_witch_take_damage_0
+      name: SlideDust_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 102
-        width: 20
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 25
+        height: 32
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e1dd4d6f2121f620800000000000000
-      internalID: 2806060530409525734
+      spriteID: 19156b223e89a7f41a60a2d2a5dd7a23
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B_witch_take_damage_1
+      name: SlideDust_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 54
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 25
+        y: 0
+        width: 25
+        height: 32
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6708f04e2873571a0800000000000000
-      internalID: -6812477826016509834
+      spriteID: 69f72c75e59cefb4e89a73602feed4b8
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B_witch_take_damage_2
+      name: SlideDust_2
       rect:
         serializedVersion: 2
-        x: 6
-        y: 6
-        width: 19
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 50
+        y: 0
+        width: 25
+        height: 32
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a181bac71333da0d0800000000000000
-      internalID: -3410013055211595750
+      spriteID: 6168eeb00a3a1ba42b81c4b2e9d6b636
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlideDust_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 25
+        height: 32
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d95361003b4e3428e01ea2c937de0e
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlideDust_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 25
+        height: 32
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a925f3c38addc8478737c40b604917b
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -177,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: aa0cc07ba0762344199b10a253ec201e
     internalID: 0
     vertices: []
     indices: 
