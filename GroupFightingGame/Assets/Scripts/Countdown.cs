@@ -5,7 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 public class Countdown : MonoBehaviour
 {
-    float currentT = 0f, startingT = 25f;
+    public const float startingT = 60f;
+    float currentT = 25f;
 
     [SerializeField] TextMeshProUGUI countdownText;
     void Start()
