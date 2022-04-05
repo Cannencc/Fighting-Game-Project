@@ -12,11 +12,11 @@ TrueTypeFontImporter:
   - Sabo
   fallbackFontReferences:
   - {fileID: 12800000, guid: e391610404b4b4e4bba608189bc01ad7, type: 3}
-  customCharacters: 
+  customCharacters:
   fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  userData:
+  assetBundleName:
+  assetBundleVariant:
