@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Roboto-Bold SDF Material
   m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords:
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Roboto-Bold SDF
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   hashCode: -635320526
   material: {fileID: 2164040}
   materialHashCode: -1838732846
@@ -191,7 +191,7 @@ MonoBehaviour:
   fallbackFontAssets: []
   m_FallbackFontAssetTable: []
   m_CreationSettings:
-    sourceFontFileName: 
+    sourceFontFileName:
     sourceFontFileGUID: 4beb055f07aaff244873dec698d0363e
     pointSizeSamplingMode: 1
     pointSize: 90
@@ -202,7 +202,7 @@ MonoBehaviour:
     characterSetSelectionMode: 6
     characterSequence: 20-7E,A0,200B,2026
     referencedFontAssetGUID: 5302535af1044152a457ed104f1f4b91
-    referencedTextAssetGUID: 
+    referencedTextAssetGUID:
     fontStyle: 0
     fontStyleModifier: 0
     renderMode: 4165
@@ -290,8 +290,8 @@ Texture2D:
   m_LightmapFormat: 0
   m_ColorSpace: 0
   image data: 0
-  _typelessdata: 
+  _typelessdata:
   m_StreamData:
     offset: 0
     size: 0
-    path: 
+    path:
