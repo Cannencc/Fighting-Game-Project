@@ -2,24 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     // Update is called once per frame
-    void Update()
+    public void pauseGame(InputAction.CallbackContext context)
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (GameIsPaused)
         {
-            if (GameIsPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
-
+            Resume();
+        }
+        else
+        {
+            Pause();
         }
     }
 

@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
     }
     private void Update()
@@ -22,20 +22,20 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(Input.GetAxis("Horizontal") * speedH, body.velocity.y);
 
 
-        if(Input.GetKeyDown(KeyCode.Space) && grounded)
+        if(Input.GetKeyDown(KeyCode.Space) && grounded == true)
         {
             Jump();
         }
 
-        anim.SetBool("run", horizontalInput != 0);
+        /*anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("fall", body.velocity.y < 0);
-        anim.SetBool("grounded", grounded);
+        anim.SetBool("grounded", grounded);*/
     }
 
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, speedJ);
-        anim.SetTrigger("jump");
+        //anim.SetTrigger("jump");
         grounded = false;
     }
 
