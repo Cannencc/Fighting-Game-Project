@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: defad5a12bee7414099552ff968efe4e
   - enabled: 1
+    path: Assets/Scenes/Map Select.unity
+    guid: 05ba98426e3e8134c8153c3ea7348fc1
+  - enabled: 0
     path: Assets/Scenes/Level.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Taiga Map.unity
+    guid: 93396abe3123410429f6a6dbd5f0af4e
+  - enabled: 1
+    path: Assets/Scenes/Cave Map.unity
+    guid: e162a456e3b35a64b8228aa72cb7260e
+  - enabled: 1
+    path: Assets/Scenes/TrainingLevel.unity
+    guid: f2c928dc691e46545b93b66feefcfc0b
   m_configObjects: {}
