@@ -1,0 +1,141 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "ace680c5-ed9b-4994-b29b-615c640330b2",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "5ee89e2b-bef6-4106-857e-a3dc6a1c3e3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "81364cc8-5616-44cb-a203-e4058b1713d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "P1 Movement",
+                    "type": "Value",
+                    "id": "a2c4c502-0846-499a-a990-2cb94051545a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bdaac3c6-25ad-43d8-b186-9a205825f598",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ec0d5daf-21ef-44a3-a376-ff16bb4da12a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1;Keyboard 2",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "f9adf7a3-b868-4ac0-be37-cc23c5829727",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "P1 Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "a52f12fd-c095-4c10-a8e6-ee923b741379",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1",
+                    "action": "P1 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "8f29c4db-3210-4ba2-8b25-2ff61dcefc94",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1",
+                    "action": "P1 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "a5745b34-185f-41f7-ab84-0ae8a52f3392",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1",
+                    "action": "P1 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "6db570f8-9de2-4e75-ae91-7124e4e9ca7e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1",
+                    "action": "P1 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard 1",
+            "bindingGroup": "Keyboard 1",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard 2",
+            "bindingGroup": "Keyboard 2",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
