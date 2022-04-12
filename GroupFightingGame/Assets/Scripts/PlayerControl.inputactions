@@ -2,25 +2,16 @@
     "name": "PlayerControl",
     "maps": [
         {
-            "name": "Player",
+            "name": "Player1",
             "id": "ace680c5-ed9b-4994-b29b-615c640330b2",
             "actions": [
                 {
-                    "name": "Jump",
+                    "name": "P1 Jump",
                     "type": "Button",
                     "id": "5ee89e2b-bef6-4106-857e-a3dc6a1c3e3d",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Pause",
-                    "type": "Button",
-                    "id": "81364cc8-5616-44cb-a203-e4058b1713d7",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 },
                 {
@@ -40,19 +31,8 @@
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard 1",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ec0d5daf-21ef-44a3-a376-ff16bb4da12a",
-                    "path": "<Keyboard>/escape",
-                    "interactions": "",
-                    "processors": "",
                     "groups": "Keyboard 1;Keyboard 2",
-                    "action": "Pause",
+                    "action": "P1 Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -73,7 +53,7 @@
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard 1",
+                    "groups": "Keyboard 1;Keyboard 2",
                     "action": "P1 Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -84,7 +64,7 @@
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard 1",
+                    "groups": "Keyboard 1;Keyboard 2",
                     "action": "P1 Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -95,7 +75,7 @@
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard 1",
+                    "groups": "Keyboard 1;Keyboard 2",
                     "action": "P1 Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -106,10 +86,130 @@
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard 1",
+                    "groups": "Keyboard 1;Keyboard 2",
                     "action": "P1 Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "74626e71-67fe-45a9-8717-09d4ddcd92d9",
+            "actions": [
+                {
+                    "name": "P2 Jump",
+                    "type": "Button",
+                    "id": "ccfb34d6-dc34-4fdb-908e-d278a4d2ae7f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "P2 Movement",
+                    "type": "Value",
+                    "id": "b77e9126-5b47-449b-8362-dc16816d9a67",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "7a305f92-fdfc-497b-bc87-c032e4dff1d6",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "P2 Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "70ef46e5-f9f8-4b62-8f5c-0296dba45059",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 2;Keyboard 1",
+                    "action": "P2 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "6024a829-6c57-48cd-9ff5-28bd9e6ac63a",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 2;Keyboard 1",
+                    "action": "P2 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "0db23d36-2c8d-4ebe-8ef3-3e32224c6152",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 2;Keyboard 1",
+                    "action": "P2 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "3a62b09f-9fbb-4a0c-8444-399706434a56",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 2;Keyboard 1",
+                    "action": "P2 Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "cfa9f511-c696-48d5-8344-195b5af37ab3",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 2;Keyboard 1",
+                    "action": "P2 Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Pause",
+            "id": "ffd6735d-1958-4256-941c-a6521243e0f5",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "8669676c-8dbe-435f-8aaf-552926463ea9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ca347a07-9bb4-4882-baff-7a1038287df1",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1;Keyboard 2",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
