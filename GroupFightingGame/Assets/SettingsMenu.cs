@@ -21,7 +21,7 @@ public class SettingsMenu : MonoBehaviour
         List<string> options = new List<string>();
 
         int currentResolutionIndex = 0;
-
+        Debug.Log("Number of Res: " + resolutions.Length);
         for (int i = 0; i < resolutions.Length; i++)
         {
             string option = resolutions[i].width + "x" + resolutions[i].height;
@@ -46,7 +46,7 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        audioMixer.SetFloat("volume", volume);
+        audioMixer.SetFloat("volume", Mathf.Log10(volume) * 20);
     }
 
     public void SetFullscreen(bool isFullscreen)
