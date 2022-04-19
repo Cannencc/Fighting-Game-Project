@@ -123,6 +123,119 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &42796783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083865268646959943, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083865268646959943, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963186267240070755, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963186267240070755, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723245715043139931, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+      propertyPath: m_Name
+      value: Health Bars
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
 --- !u!1 &77904719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1114,9 @@ MonoBehaviour:
   body: {fileID: 459153923}
   speedH: 5
   speedJ: 2
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 1240562671}
 --- !u!50 &459153923
 Rigidbody2D:
   serializedVersion: 4
@@ -1091,6 +1207,26 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 8669676c-8dbe-435f-8aaf-552926463ea9
     m_ActionName: Pause/Pause[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 25c5bfc8-5681-433e-88da-06691bccc018
+    m_ActionName: Player1/P1 Spacebar (Hit Test)[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 459153922}
+        m_TargetAssemblyTypeName: PlayerControllerTest, Assembly-CSharp
+        m_MethodName: OnRightShift
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
+    m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
@@ -1674,6 +1810,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &723272267 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1025443746115823110, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+  m_PrefabInstance: {fileID: 42796783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed150dbcfbadcd4db3631fe0381c049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &751527030
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,6 +3672,17 @@ Transform:
   m_Father: {fileID: 1620670012}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1240562671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 391157207533357554, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
+  m_PrefabInstance: {fileID: 42796783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed150dbcfbadcd4db3631fe0381c049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1312760800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,9 +3950,17 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 8669676c-8dbe-435f-8aaf-552926463ea9
     m_ActionName: Pause/Pause[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 25c5bfc8-5681-433e-88da-06691bccc018
+    m_ActionName: Player1/P1 Spacebar (Hit Test)[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
+    m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: ffd6735d-1958-4256-941c-a6521243e0f5
+  m_DefaultActionMap: Pause
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1001 &1380003110
@@ -4993,6 +5159,9 @@ MonoBehaviour:
   body: {fileID: 1654844164}
   speedH: 5
   speedJ: 2
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 723272267}
 --- !u!50 &1654844164
 Rigidbody2D:
   serializedVersion: 4
@@ -5083,6 +5252,26 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 8669676c-8dbe-435f-8aaf-552926463ea9
     m_ActionName: Pause/Pause[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1654844163}
+        m_TargetAssemblyTypeName: PlayerControllerTest, Assembly-CSharp
+        m_MethodName: OnSpacebar
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 25c5bfc8-5681-433e-88da-06691bccc018
+    m_ActionName: Player1/P1 Spacebar (Hit Test)[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
+    m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player1
