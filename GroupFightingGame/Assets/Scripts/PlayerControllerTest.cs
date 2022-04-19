@@ -11,6 +11,15 @@ public class PlayerControllerTest : MonoBehaviour
     private bool grounded, stop = false;
     private float movementInput;
     private InputActionReference actionRef;
+    public int maxHealth = 100;
+    public int currentHealth;
+    public HealthBar healthBar;
+
+    void Start()
+    {
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
 
     private void OnEnable()
     {
@@ -65,9 +74,28 @@ public class PlayerControllerTest : MonoBehaviour
 
     }
 
+    public void OnSpacebar(InputAction.CallbackContext context)
+    {
+        if(context.performed)
+            TakeDamage(10);
+    }
+
+    public void OnRightShift(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+            TakeDamage(10);
+    }
+
     void Update()
     {
         //Debug.Log("Grounded Status: " + grounded);
         body.velocity = new Vector2(speedH * movementInput, body.velocity.y);
+
+    }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
     }
 }

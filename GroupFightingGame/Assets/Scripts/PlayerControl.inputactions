@@ -22,6 +22,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "P1 Spacebar (Hit Test)",
+                    "type": "Button",
+                    "id": "25c5bfc8-5681-433e-88da-06691bccc018",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -90,6 +99,17 @@
                     "action": "P1 Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "26d59813-2f65-4795-b7ad-85b144269865",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1;Keyboard 2",
+                    "action": "P1 Spacebar (Hit Test)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -114,6 +134,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "P2 Right Shift (Hit Test)",
+                    "type": "Button",
+                    "id": "4e39dad0-057d-45b3-a31e-9fc163f99ed6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -180,6 +209,17 @@
                     "processors": "",
                     "groups": "Keyboard 2;Keyboard 1",
                     "action": "P2 Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79941532-c4af-47ab-b2f1-dc4630f54816",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1;Keyboard 2",
+                    "action": "P2 Right Shift (Hit Test)",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
