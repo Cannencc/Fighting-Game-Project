@@ -21,6 +21,21 @@ public class CharacterManager : MonoBehaviour
         sr.sprite = characters[selectedCharacter];
     }
 
+    public void Previous()
+    {
+        selectedCharacter--;
+        if (selectedCharacter < 0)
+        {
+            selectedCharacter = characters.Count - 1;
+        }
+        sr.sprite = characters[selectedCharacter];
+    }
+
+    public void goToMapSelect()
+    {
+        PlayerPrefs.SetInt("Selected Character 1", selectedCharacter);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 
 
 
