@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoadCharacter : MonoBehaviour
+public class LoadCharacter2 : MonoBehaviour
 {
     public GameObject[] characterPrefabs;
     public GameObject[] skinPrefabs;
@@ -13,8 +13,8 @@ public class LoadCharacter : MonoBehaviour
     void Start()
     {
 
-        int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter1");
-        int selectedSkin = PlayerPrefs.GetInt("selectedSkin1");
+        int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter2");
+        int selectedSkin = PlayerPrefs.GetInt("selectedSkin2");
 
         GameObject prefab = characterPrefabs[selectedCharacter];
         if(selectedSkin == 0)
