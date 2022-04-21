@@ -13,6 +13,20 @@ public class PlayerControllerTest : MonoBehaviour
     private bool grounded, stop = false;
     private float movementInput;
     private InputActionReference actionRef;
+    public int maxHealth = 100;
+    public static int P1currentHealth;
+    public static int P2currentHealth;
+    public HealthBar P1healthBar;
+    public HealthBar P2healthBar;
+
+    void Start()
+    {
+        P1currentHealth = maxHealth;
+        P2currentHealth = maxHealth;
+
+        P1healthBar.SetMaxHealth(maxHealth);
+        P2healthBar.SetMaxHealth(maxHealth);
+    }
 
     private void OnEnable()
     {
@@ -67,14 +81,36 @@ public class PlayerControllerTest : MonoBehaviour
 
     }
 
+    public void OnSpacebar(InputAction.CallbackContext context)
+    {
+        if(context.performed)
+            P1TakeDamage(10);
+    }
+
+    public void OnRightShift(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+            P2TakeDamage(10);
+    }
+
     void Update()
     {
         //Debug.Log("Grounded Status: " + grounded);
-        if(movementInput < 0)
-            body.velocity = new Vector2(speedAway * movementInput, body.velocity.y);
-        else
-            body.velocity = new Vector2(speedTowards * movementInput, body.velocity.y);
+        body.velocity = new Vector2(speedH * movementInput, body.velocity.y);
 
-        playerAnim.SetFloat("walkDirection", body.velocity.x);
+    }
+
+    void P1TakeDamage(int damage)
+    {
+        P1currentHealth -= damage;
+        P1healthBar.SetHealth(P1currentHealth);
+
+    }
+
+    void P2TakeDamage(int damage)
+    {
+        P2currentHealth -= damage;
+        P2healthBar.SetHealth(P2currentHealth);
+
     }
 }
