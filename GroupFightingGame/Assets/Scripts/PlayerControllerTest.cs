@@ -12,13 +12,18 @@ public class PlayerControllerTest : MonoBehaviour
     private float movementInput;
     private InputActionReference actionRef;
     public int maxHealth = 100;
-    public int currentHealth;
-    public HealthBar healthBar;
+    public static int P1currentHealth;
+    public static int P2currentHealth;
+    public HealthBar P1healthBar;
+    public HealthBar P2healthBar;
 
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        P1currentHealth = maxHealth;
+        P2currentHealth = maxHealth;
+
+        P1healthBar.SetMaxHealth(maxHealth);
+        P2healthBar.SetMaxHealth(maxHealth);
     }
 
     private void OnEnable()
@@ -77,13 +82,13 @@ public class PlayerControllerTest : MonoBehaviour
     public void OnSpacebar(InputAction.CallbackContext context)
     {
         if(context.performed)
-            TakeDamage(10);
+            P1TakeDamage(10);
     }
 
     public void OnRightShift(InputAction.CallbackContext context)
     {
         if (context.performed)
-            TakeDamage(10);
+            P2TakeDamage(10);
     }
 
     void Update()
@@ -93,9 +98,17 @@ public class PlayerControllerTest : MonoBehaviour
 
     }
 
-    void TakeDamage(int damage)
+    void P1TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        P1currentHealth -= damage;
+        P1healthBar.SetHealth(P1currentHealth);
+
+    }
+
+    void P2TakeDamage(int damage)
+    {
+        P2currentHealth -= damage;
+        P2healthBar.SetHealth(P2currentHealth);
+
     }
 }
