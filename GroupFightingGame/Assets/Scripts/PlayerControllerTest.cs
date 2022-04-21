@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerControllerTest : MonoBehaviour
 {
+    public Animator playerAnim;
     public Rigidbody2D body;
     [SerializeField] private float speedH;
     [SerializeField] private float speedJ;
@@ -69,5 +70,6 @@ public class PlayerControllerTest : MonoBehaviour
     {
         //Debug.Log("Grounded Status: " + grounded);
         body.velocity = new Vector2(speedH * movementInput, body.velocity.y);
+        playerAnim.SetFloat("walkDirection", body.velocity.x);
     }
 }
