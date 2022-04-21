@@ -6,7 +6,7 @@ using TMPro;
 public class Countdown : MonoBehaviour
 {
     public const float startingT = 60f;
-    float currentT = 25f;
+    public static float currentT = 25f;
 
     [SerializeField] TextMeshProUGUI countdownText;
     void Start()
