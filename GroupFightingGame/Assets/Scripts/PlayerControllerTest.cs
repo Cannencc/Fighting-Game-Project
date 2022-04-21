@@ -10,7 +10,7 @@ public class PlayerControllerTest : MonoBehaviour
     [SerializeField] private float speedAway;
     [SerializeField] private float speedJump;
     private Animator anim;
-    private bool grounded, stop = false;
+    private bool grounded, stop = false, lightAttack = false;
     private float movementInput;
     private InputActionReference actionRef;
     public int maxHealth = 100;
@@ -18,9 +18,14 @@ public class PlayerControllerTest : MonoBehaviour
     public static int P2currentHealth;
     public HealthBar P1healthBar;
     public HealthBar P2healthBar;
+    public Transform attackHitBox;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+
 
     void Start()
     {
+        playerAnim = GetComponentInChildren<Animator>();
         P1currentHealth = maxHealth;
         P2currentHealth = maxHealth;
 
@@ -28,14 +33,6 @@ public class PlayerControllerTest : MonoBehaviour
         P2healthBar.SetMaxHealth(maxHealth);
     }
 
-    private void OnEnable()
-    {
-        actionRef.action.Enable();
-    }
-    private void OnDisable()
-    {
-        actionRef.action.Disable();
-    }
     public void OnMove(InputAction.CallbackContext context)
     {
         if(grounded)
@@ -93,17 +90,44 @@ public class PlayerControllerTest : MonoBehaviour
             P2TakeDamage(10);
     }
 
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Debug.Log("Attack");
+            playerAnim.SetTrigger("lightAttack");
+            body.transform.position += body.transform.forward * Time.deltaTime * 5f;
+        }
+        Collider2D[] hitOpponents = Physics2D.OverlapCircleAll(attackHitBox.position, attackRange, enemyLayers);
+        foreach(Collider2D enemy in hitOpponents)
+        {
+            P2TakeDamage(10);
+        }
+
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (attackHitBox == null)
+            return;
+        Gizmos.DrawWireSphere(attackHitBox.position, attackRange);
+    }
     void Update()
     {
         //Debug.Log("Grounded Status: " + grounded);
-        body.velocity = new Vector2(speedH * movementInput, body.velocity.y);
+        if(movementInput < 0)
+            body.velocity = new Vector2(speedAway * movementInput, body.velocity.y);
+        else
+            body.velocity = new Vector2(speedTowards * movementInput, body.velocity.y);
 
+        playerAnim.SetFloat("walkDirection", body.velocity.x);
     }
 
     void P1TakeDamage(int damage)
     {
         P1currentHealth -= damage;
         P1healthBar.SetHealth(P1currentHealth);
+        Debug.Log("OUCH");
 
     }
 
