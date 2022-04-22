@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Cave Map.unity
     guid: e162a456e3b35a64b8228aa72cb7260e
   - enabled: 1
-    path: Assets/Scenes/TrainingLevel.unity
+    path: Assets/Scenes/Practice.unity
     guid: f2c928dc691e46545b93b66feefcfc0b
   m_configObjects: {}

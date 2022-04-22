@@ -17,6 +17,7 @@ public class PlayerControllerTest : MonoBehaviour
     public HealthBar P1healthBar;
     public HealthBar P2healthBar;
 
+
     void Start()
     {
         P1currentHealth = maxHealth;
@@ -24,16 +25,12 @@ public class PlayerControllerTest : MonoBehaviour
 
         P1healthBar.SetMaxHealth(maxHealth);
         P2healthBar.SetMaxHealth(maxHealth);
-    }
 
-    private void OnEnable()
-    {
-        actionRef.action.Enable();
-    }
-    private void OnDisable()
-    {
-        actionRef.action.Disable();
-    }
+     }
+
+    
+
+  
     public void OnMove(InputAction.CallbackContext context)
     {
         if(grounded)

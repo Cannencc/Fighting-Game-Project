@@ -22,12 +22,14 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        battleMusic.instance.GetComponent<AudioSource>().Play();
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
     void Pause()
     {
+        battleMusic.instance.GetComponent<AudioSource>().Pause();
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
@@ -38,9 +40,13 @@ public class PauseMenu : MonoBehaviour
     }
     public void LoadMenu()
     {
+        battleMusic.instance.GetComponent<AudioSource>().Stop();
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
-        Resume();
+        pauseMenuUI.SetActive(false);
+        GameIsPaused=false;
+        AudioManager.audioManagerInst.GetComponent<AudioSource>().Play();
+        //Resume();
         Debug.Log("Loading Menu...");
     }
     public void QuitGame()
