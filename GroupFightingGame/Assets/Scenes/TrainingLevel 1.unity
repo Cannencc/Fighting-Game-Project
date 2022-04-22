@@ -576,12 +576,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 512538201}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 0
+  speedAway: 0
+  speedJump: 0
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 1471307741}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &512538201
 Rigidbody2D:
   serializedVersion: 4
@@ -1113,7 +1120,7 @@ AudioSource:
   m_GameObject: {fileID: 840834903}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 383365bc42d29a84ca44802ba77eab70, type: 2}
   m_audioClip: {fileID: 8300000, guid: e53144a2ac4e33647a740db9c8dd8786, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.565
@@ -1240,7 +1247,7 @@ AudioSource:
   m_GameObject: {fileID: 859621608}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 383365bc42d29a84ca44802ba77eab70, type: 2}
   m_audioClip: {fileID: 8300000, guid: 15d062dd0c761c64ba2e851587c2fd35, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -2471,12 +2478,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 1190011798}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 0
+  speedAway: 0
+  speedJump: 0
   maxHealth: 100
   P1healthBar: {fileID: 1471307742}
   P2healthBar: {fileID: 0}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &1190011798
 Rigidbody2D:
   serializedVersion: 4
@@ -2964,12 +2978,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 1478849639}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 0
+  speedAway: 0
+  speedJump: 0
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 1471307741}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &1478849639
 Rigidbody2D:
   serializedVersion: 4
@@ -5393,12 +5414,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 2140107385}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 0
+  speedAway: 0
+  speedJump: 0
   maxHealth: 100
   P1healthBar: {fileID: 1471307742}
   P2healthBar: {fileID: 0}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &2140107385
 Rigidbody2D:
   serializedVersion: 4
