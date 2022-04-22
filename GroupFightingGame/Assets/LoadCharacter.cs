@@ -26,8 +26,16 @@ public class LoadCharacter : MonoBehaviour
            prefab = skinPrefabs[selectedCharacter];
         }
 
-        spawn = new Vector3(0f, -.53f,0f); 
-        prefab.transform.localPosition = new Vector3(0f, -.53f, 0f);
+        
+        if(selectedCharacter == 0)
+        {
+            prefab.transform.localPosition = new Vector3(0f, -.53f, 0f);
+        }
+        if(selectedCharacter == 1)
+        {
+            prefab.transform.localPosition = new Vector3(0f, -.403f, 0f);
+        }
+        
         Instantiate(prefab, parent); 
     
         

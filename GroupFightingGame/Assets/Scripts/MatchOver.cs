@@ -8,9 +8,11 @@ public class MatchOver : MonoBehaviour
 {
     public GameObject MatchOverUI;
 
+    // Different scene loads per map
     public void RematchTaiga()
     {
         SceneManager.LoadScene("Taiga Map");
+        battleMusic.instance.GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
         MatchOverUI.SetActive(false);
         PauseMenu.GameIsPaused = false;
@@ -19,6 +21,7 @@ public class MatchOver : MonoBehaviour
     public void RematchCave()
     {
         SceneManager.LoadScene("Cave Map");
+        battleMusic.instance.GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
         MatchOverUI.SetActive(false);
         PauseMenu.GameIsPaused = false;
@@ -27,6 +30,7 @@ public class MatchOver : MonoBehaviour
     public void RematchTraining()
     {
         SceneManager.LoadScene("TrainingLevel");
+        battleMusic.instance.GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
         MatchOverUI.SetActive(false);
         PauseMenu.GameIsPaused = false;
@@ -38,6 +42,7 @@ public class MatchOver : MonoBehaviour
         MatchOverUI.SetActive(false);
         PauseMenu.GameIsPaused = false;
         SceneManager.LoadScene("Map Select");
+        AudioManager.audioManagerInst.GetComponent<AudioSource>().Play();
     }
 
     public void LoadMenu()
@@ -46,6 +51,7 @@ public class MatchOver : MonoBehaviour
         MatchOverUI.SetActive(false);
         PauseMenu.GameIsPaused = false;
         SceneManager.LoadScene("Main Menu");
+        AudioManager.audioManagerInst.GetComponent<AudioSource>().Play();
         Debug.Log("Loading Menu...");
     }
 
@@ -60,6 +66,8 @@ public class MatchOver : MonoBehaviour
     {
         if(PlayerControllerTest.P1currentHealth <= 0 || PlayerControllerTest.P2currentHealth <= 0 || Countdown.currentT == 0)
         {
+            battleMusic.instance.GetComponent<AudioSource>().Stop();
+            SoundManagerScript.PlaySound("roundEnd");
             Time.timeScale = 0f;
             MatchOverUI.SetActive(true);
             Countdown.currentT = 60f;

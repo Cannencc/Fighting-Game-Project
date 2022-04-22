@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    private static AudioManager audioManagerInst;
+    public static AudioManager audioManagerInst;
     private AudioSource musicSource;
 
     void Awake()
@@ -16,5 +16,7 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
 
     }
+
+  
 
 }

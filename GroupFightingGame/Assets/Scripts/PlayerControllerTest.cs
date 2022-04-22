@@ -23,6 +23,7 @@ public class PlayerControllerTest : MonoBehaviour
     public LayerMask enemyLayers;
 
 
+
     void Start()
     {
         playerAnim = GetComponentInChildren<Animator>();
@@ -32,7 +33,7 @@ public class PlayerControllerTest : MonoBehaviour
         P1healthBar.SetMaxHealth(maxHealth);
         P2healthBar.SetMaxHealth(maxHealth);
     }
-
+    
     public void OnMove(InputAction.CallbackContext context)
     {
         if(grounded)
