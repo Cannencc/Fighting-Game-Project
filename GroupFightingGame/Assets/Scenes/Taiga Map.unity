@@ -400,7 +400,7 @@ Transform:
   m_Children:
   - {fileID: 1046725993}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &16817210
 GameObject:
@@ -1587,7 +1587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568523413830189683, guid: 93fc2c5d9fc373f45a75f44dbbce0a8c, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8568523413830189683, guid: 93fc2c5d9fc373f45a75f44dbbce0a8c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2013,8 +2013,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterPrefabs:
   - {fileID: 5449304494981682632, guid: 3cd148bd1e0f07741bed7284eaf346ca, type: 3}
+  - {fileID: 4124988857813369536, guid: 2b763a1cfca036146b45354668ba0e16, type: 3}
   skinPrefabs:
   - {fileID: 1046725994}
+  - {fileID: 6849296820367475815, guid: c8b9324b595d8cf498c61d8d948ed45e, type: 3}
   parent: {fileID: 1288000765}
   spawn: {x: 0, y: 0, z: 0}
 --- !u!1 &543694942
@@ -13119,13 +13121,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962548658}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: -2.1, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: -5, y: 5, z: 5}
   m_Children:
   - {fileID: 1724371393}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1010498849
 GameObject:
@@ -13926,7 +13928,7 @@ Transform:
   m_LocalScale: {x: 25.9523, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1150387016
 GameObject:
@@ -14577,7 +14579,7 @@ Transform:
   m_Children:
   - {fileID: 500653464}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1301161707
 GameObject:
@@ -15733,8 +15735,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterPrefabs:
   - {fileID: 5449304494981682632, guid: 3cd148bd1e0f07741bed7284eaf346ca, type: 3}
+  - {fileID: 4124988857813369536, guid: 2b763a1cfca036146b45354668ba0e16, type: 3}
   skinPrefabs:
   - {fileID: 1046725994}
+  - {fileID: 6849296820367475815, guid: c8b9324b595d8cf498c61d8d948ed45e, type: 3}
   parent: {fileID: 962548664}
   spawn: {x: 0, y: 0, z: 0}
 --- !u!1 &1779831187
@@ -16428,7 +16432,7 @@ Transform:
   m_Children:
   - {fileID: 1056516564}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1856425230
 GameObject:
@@ -17359,7 +17363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3532336374246163731, guid: 37f25f29337904343adab6c52adf9eab, type: 3}
       propertyPath: m_AnchorMax.x
