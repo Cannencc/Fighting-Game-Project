@@ -61,6 +61,7 @@ public class MatchOver : MonoBehaviour
     {
         if(PlayerControllerTest.P1currentHealth <= 0 || PlayerControllerTest.P2currentHealth <= 0 || Countdown.currentT == 0)
         {
+            SoundManagerScript.PlaySound("roundEnd");
             Time.timeScale = 0f;
             MatchOverUI.SetActive(true);
             Countdown.currentT = 60f;
