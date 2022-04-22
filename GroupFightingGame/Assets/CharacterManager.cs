@@ -13,10 +13,22 @@ public class CharacterManager : MonoBehaviour
     public int selectedCharacter = 0;
 
     public GameObject[] skins;
-    public int selectedSkin = 1;
+    public int selectedSkin = 0;
+
+    public void Start()
+    {
+        skins[0].SetActive(false); 
+        skins[1].SetActive(false); 
+        characters[1].SetActive(false);
+    }
 
     public void Next()
     {
+        if(selectedSkin == 1)
+        {
+            selectedSkin = 0; 
+            skins[selectedCharacter].SetActive(false);
+        }
         characters[selectedCharacter].SetActive(false);
         selectedCharacter = (selectedCharacter + 1) % characters.Length;
         characters[selectedCharacter].SetActive(true); 
@@ -24,6 +36,11 @@ public class CharacterManager : MonoBehaviour
 
     public void Previous()
     {
+        if(selectedSkin == 1)
+        {
+            selectedSkin = 0; 
+            skins[selectedCharacter].SetActive(false);
+        }
         characters[selectedCharacter].SetActive(false);
         selectedCharacter--;
         if(selectedCharacter < 0)
@@ -44,13 +61,13 @@ public class CharacterManager : MonoBehaviour
         if(selectedSkin == 0)
         {
             skins[selectedCharacter].SetActive(false);
-            characters[selectedCharacter].SetActive(true); 
+            characters[selectedCharacter].SetActive(true);
         }
 
         if(selectedSkin == 1)
         {
             skins[selectedCharacter].SetActive(true);
-            characters[selectedCharacter].SetActive(false); 
+            characters[selectedCharacter].SetActive(false);
         }
 
 

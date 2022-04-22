@@ -161,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2923651570620087437, guid: 216b375f44bce1c41b9ab23640bc9a57, type: 3}
       propertyPath: m_Name
-      value: Rogue Unit Blue
+      value: Rogue Unit Blue Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3300339618226951850, guid: 216b375f44bce1c41b9ab23640bc9a57, type: 3}
       propertyPath: m_LocalRotation.w
@@ -469,7 +469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8026417200606331686, guid: 216b375f44bce1c41b9ab23640bc9a57, type: 3}
       propertyPath: m_LocalScale.x
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8026417200606331686, guid: 216b375f44bce1c41b9ab23640bc9a57, type: 3}
       propertyPath: m_LocalScale.y
