@@ -4772,9 +4772,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAnim: {fileID: 0}
   body: {fileID: 1420061509}
-  speedTowards: 0
-  speedAway: 0
-  speedJump: 0
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 576226701}
@@ -7262,9 +7262,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAnim: {fileID: 0}
   body: {fileID: 2099476562}
-  speedTowards: 0
-  speedAway: 0
-  speedJump: 0
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 914525369}
   P2healthBar: {fileID: 0}

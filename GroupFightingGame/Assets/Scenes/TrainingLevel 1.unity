@@ -578,9 +578,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAnim: {fileID: 0}
   body: {fileID: 512538201}
-  speedTowards: 0
-  speedAway: 0
-  speedJump: 0
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 1471307741}
@@ -699,6 +699,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
@@ -5416,9 +5420,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAnim: {fileID: 0}
   body: {fileID: 2140107385}
-  speedTowards: 0
-  speedAway: 0
-  speedJump: 0
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 1471307742}
   P2healthBar: {fileID: 0}
@@ -5537,6 +5541,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player1
