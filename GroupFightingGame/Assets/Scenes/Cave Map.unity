@@ -1938,7 +1938,7 @@ GameObject:
   - component: {fileID: 751527031}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4595,7 +4595,7 @@ GameObject:
   - component: {fileID: 1420061507}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4812,7 +4812,7 @@ Transform:
   m_GameObject: {fileID: 1420061506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: -2.1, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: -5, y: 5, z: 5}
   m_Children:
   - {fileID: 1352890121}
   m_Father: {fileID: 0}
@@ -7048,7 +7048,7 @@ GameObject:
   - component: {fileID: 2099476560}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
