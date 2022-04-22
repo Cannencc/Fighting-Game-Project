@@ -222,12 +222,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 12706905}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 0
+  speedAway: 0
+  speedJump: 0
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 1538979909063542121}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &12706905
 Rigidbody2D:
   serializedVersion: 4
@@ -338,6 +345,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
@@ -13255,12 +13266,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 962548661}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 1538979909063542121}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &962548661
 Rigidbody2D:
   serializedVersion: 4
@@ -13371,6 +13389,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
@@ -14707,12 +14729,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 1288000762}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 1538979909063542122}
   P2healthBar: {fileID: 0}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &1288000762
 Rigidbody2D:
   serializedVersion: 4
@@ -14823,6 +14852,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player1
@@ -16572,12 +16605,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 1846873606}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 1538979909063542122}
   P2healthBar: {fileID: 0}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &1846873606
 Rigidbody2D:
   serializedVersion: 4
@@ -16688,6 +16728,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player1
