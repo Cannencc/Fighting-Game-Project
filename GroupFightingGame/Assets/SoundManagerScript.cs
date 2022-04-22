@@ -12,8 +12,6 @@ public class SoundManagerScript : MonoBehaviour
     {
         roundEnd = Resources.Load<AudioClip>("roundEnd");
 
-    // Need to find a way to end Main Menu music!!
-
         audioSource = GetComponent<AudioSource>();
     }
 
