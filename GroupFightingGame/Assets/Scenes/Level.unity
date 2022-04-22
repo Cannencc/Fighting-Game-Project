@@ -1839,6 +1839,9 @@ MonoBehaviour:
   body: {fileID: 1551403905}
   speedH: 100
   speedJ: 50
+  maxHealth: 100
+  P1healthBar: {fileID: 0}
+  P2healthBar: {fileID: 0}
 --- !u!114 &1551403907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2761,6 +2764,9 @@ MonoBehaviour:
   body: {fileID: 1957360719}
   speedH: 100
   speedJ: 50
+  maxHealth: 100
+  P1healthBar: {fileID: 0}
+  P2healthBar: {fileID: 0}
 --- !u!50 &1957360719
 Rigidbody2D:
   serializedVersion: 4

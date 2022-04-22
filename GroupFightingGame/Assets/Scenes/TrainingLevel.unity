@@ -598,7 +598,7 @@ Transform:
   m_GameObject: {fileID: 512538198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: -2.1, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: -5, y: 5, z: 5}
   m_Children:
   - {fileID: 2113932181}
   m_Father: {fileID: 0}
@@ -3995,8 +3995,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterPrefabs:
   - {fileID: 5449304494981682632, guid: 3cd148bd1e0f07741bed7284eaf346ca, type: 3}
+  - {fileID: 4124988857813369536, guid: 2b763a1cfca036146b45354668ba0e16, type: 3}
   skinPrefabs:
   - {fileID: 6939804535535110769, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
+  - {fileID: 6849296820367475815, guid: c8b9324b595d8cf498c61d8d948ed45e, type: 3}
   parent: {fileID: 2140107388}
   spawn: {x: 0, y: 0, z: 0}
 --- !u!1 &1831829307
