@@ -34,10 +34,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
-    public void OptionsMenu()
-    {
-        Debug.Log("Loading Options...");
-    }
+    
     public void LoadMenu()
     {
         battleMusic.instance.GetComponent<AudioSource>().Stop();
