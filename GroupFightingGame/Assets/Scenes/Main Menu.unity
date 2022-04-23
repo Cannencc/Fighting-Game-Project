@@ -351,7 +351,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.000015258789, y: 238.1}
-  m_SizeDelta: {x: 75.5902, y: -7.9754}
+  m_SizeDelta: {x: 132.4827, y: 4.8713}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &218667135
 MonoBehaviour:
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Filler Title
+  m_text: Rogue Warfare
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aa341eb5ab1f1e43acaf4e2dbc1d3a4, type: 2}
   m_sharedMaterial: {fileID: 3722739120745777065, guid: 5aa341eb5ab1f1e43acaf4e2dbc1d3a4, type: 2}
@@ -3826,7 +3826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1792453, g: 0.060030267, b: 0.060030267, a: 0.392}
+  m_Color: {r: 0.91121435, g: 1, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
