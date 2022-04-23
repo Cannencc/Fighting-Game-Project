@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "P1 Light Attack",
+                    "type": "Button",
+                    "id": "dca58647-afac-49b2-ae4f-e4fc08dd3189",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -110,6 +119,17 @@
                     "action": "P1 Spacebar (Hit Test)",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "705b49a3-b883-4aaa-ba70-b28b72cb374d",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1;Keyboard 2",
+                    "action": "P1 Light Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -139,6 +159,15 @@
                     "name": "P2 Right Shift (Hit Test)",
                     "type": "Button",
                     "id": "4e39dad0-057d-45b3-a31e-9fc163f99ed6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "P2 Light Attack",
+                    "type": "Button",
+                    "id": "8aaf02af-fa11-45d8-9f2f-46a40d67daa8",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -220,6 +249,17 @@
                     "processors": "",
                     "groups": "Keyboard 1;Keyboard 2",
                     "action": "P2 Right Shift (Hit Test)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07fb1fe5-8c45-43af-8469-0fdd819b121c",
+                    "path": "<Keyboard>/numpadPlus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1;Keyboard 2",
+                    "action": "P2 Light Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

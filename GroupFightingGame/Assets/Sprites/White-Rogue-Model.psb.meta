@@ -46,7 +46,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 0
@@ -102,7 +102,7 @@ ScriptedImporter:
       y: 80
       width: 11
       height: 15
-    spriteID: 24d75d2f35e23f54faae0e4bf88421c6
+    spriteID: 91ff41e12d8935448a2e9e8fb9bd5168
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -124,7 +124,7 @@ ScriptedImporter:
       y: 103
       width: 9
       height: 14
-    spriteID: 6170626afbdd60c41917551a8fb20160
+    spriteID: 2eac9ba79522b2345b118b18e3831e6e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -146,7 +146,7 @@ ScriptedImporter:
       y: 32
       width: 5
       height: 13
-    spriteID: 72126a0b950eabe4ba3e58da0e32c551
+    spriteID: 3600e732a8a6e654b9dc1bf1361273a6
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -168,7 +168,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 20
-    spriteID: 2f46375ac934bc1419b4fc5deaa6c4ef
+    spriteID: cc6fa298f0c236a49b6c6ce79428fdcf
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 32
       width: 14
       height: 16
-    spriteID: 5131ab7d4cf0a574fbe35c2c184b2ed9
+    spriteID: f8695eef9065e904ea329e80f1916c6f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 81
       width: 8
       height: 10
-    spriteID: f5b36493c7c6d5546a26a076c00dd1f2
+    spriteID: 3950c3e7d145f0e48827178ba87a4ac9
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -234,7 +234,7 @@ ScriptedImporter:
       y: 4
       width: 9
       height: 19
-    spriteID: 004debe0d06eecb4fa7ade53bf000d49
+    spriteID: 08e39bb30d5797d4d8e84fb78bf6274f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -256,7 +256,7 @@ ScriptedImporter:
       y: 99
       width: 7
       height: 11
-    spriteID: 4a08de34e612143439dd57c4142b64ea
+    spriteID: 69be236701ec407448154cc369f82868
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -278,7 +278,7 @@ ScriptedImporter:
       y: 54
       width: 6
       height: 19
-    spriteID: a463380a9657ddf418b8d6e1c0507a34
+    spriteID: 8eff731c2bc7b934a8bd9fef2d04269b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -300,7 +300,7 @@ ScriptedImporter:
       y: 56
       width: 13
       height: 16
-    spriteID: e3d744192c36e7145aeaf615131b9845
+    spriteID: fb6a27b370bc608438015c7be2aaffe1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -322,7 +322,7 @@ ScriptedImporter:
       y: 32
       width: 9
       height: 14
-    spriteID: 3acb9ec6b22769c4bb9c12e4361d889c
+    spriteID: c4c8f96579da36e44b6c3f34d0178e60
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -344,7 +344,7 @@ ScriptedImporter:
       y: 53
       width: 5
       height: 13
-    spriteID: 75732b561538ef54780d38fccf802fc3
+    spriteID: 5b6419c7d9c9425438c5b74809090727
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -355,40 +355,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -8, y: 13}
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
@@ -411,91 +378,91 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 21
     mosaicPosition: {x: 0, y: 0}
   - name: White-Rogue-Head
     spriteName: White-Rogue-Head
     isGroup: 0
     parentIndex: 0
-    spriteID: 24d75d2f35e23f54faae0e4bf88421c6
+    spriteID: 91ff41e12d8935448a2e9e8fb9bd5168
     layerID: 56
     mosaicPosition: {x: 4, y: 80}
   - name: White-Rogue-RightShoulder
     spriteName: White-Rogue-RightShoulder
     isGroup: 0
     parentIndex: 0
-    spriteID: 6170626afbdd60c41917551a8fb20160
+    spriteID: 2eac9ba79522b2345b118b18e3831e6e
     layerID: 46
     mosaicPosition: {x: 4, y: 103}
   - name: White-Rogue-RightForearm
     spriteName: White-Rogue-RightForearm
     isGroup: 0
     parentIndex: 0
-    spriteID: 72126a0b950eabe4ba3e58da0e32c551
+    spriteID: 3600e732a8a6e654b9dc1bf1361273a6
     layerID: 47
     mosaicPosition: {x: 43, y: 32}
   - name: White-Rogue-Sword
     spriteName: White-Rogue-Sword
     isGroup: 0
     parentIndex: 0
-    spriteID: 2f46375ac934bc1419b4fc5deaa6c4ef
+    spriteID: cc6fa298f0c236a49b6c6ce79428fdcf
     layerID: 58
     mosaicPosition: {x: 4, y: 4}
   - name: White-Rogue-Waist
     spriteName: White-Rogue-Waist
     isGroup: 0
     parentIndex: 0
-    spriteID: 5131ab7d4cf0a574fbe35c2c184b2ed9
+    spriteID: f8695eef9065e904ea329e80f1916c6f
     layerID: 50
     mosaicPosition: {x: 4, y: 32}
   - name: White-Rogue-RightThigh
     spriteName: White-Rogue-RightThigh
     isGroup: 0
     parentIndex: 0
-    spriteID: f5b36493c7c6d5546a26a076c00dd1f2
+    spriteID: 3950c3e7d145f0e48827178ba87a4ac9
     layerID: 48
     mosaicPosition: {x: 26, y: 81}
   - name: White-Rogue-RightCalf
     spriteName: White-Rogue-RightCalf
     isGroup: 0
     parentIndex: 0
-    spriteID: 004debe0d06eecb4fa7ade53bf000d49
+    spriteID: 08e39bb30d5797d4d8e84fb78bf6274f
     layerID: 49
     mosaicPosition: {x: 48, y: 4}
   - name: White-Rogue-LeftThigh
     spriteName: White-Rogue-LeftThigh
     isGroup: 0
     parentIndex: 0
-    spriteID: 4a08de34e612143439dd57c4142b64ea
+    spriteID: 69be236701ec407448154cc369f82868
     layerID: 52
     mosaicPosition: {x: 26, y: 99}
   - name: White-Rogue-LeftCalf
     spriteName: White-Rogue-LeftCalf
     isGroup: 0
     parentIndex: 0
-    spriteID: a463380a9657ddf418b8d6e1c0507a34
+    spriteID: 8eff731c2bc7b934a8bd9fef2d04269b
     layerID: 51
     mosaicPosition: {x: 26, y: 54}
   - name: White-Rogue-Chest
     spriteName: White-Rogue-Chest
     isGroup: 0
     parentIndex: 0
-    spriteID: e3d744192c36e7145aeaf615131b9845
+    spriteID: fb6a27b370bc608438015c7be2aaffe1
     layerID: 53
     mosaicPosition: {x: 4, y: 56}
   - name: White-Rogue-LeftShoulder
     spriteName: White-Rogue-LeftShoulder
     isGroup: 0
     parentIndex: 0
-    spriteID: 3acb9ec6b22769c4bb9c12e4361d889c
+    spriteID: c4c8f96579da36e44b6c3f34d0178e60
     layerID: 54
     mosaicPosition: {x: 26, y: 32}
   - name: White-Rogue-LeftForearm
     spriteName: White-Rogue-LeftForearm
     isGroup: 0
     parentIndex: 0
-    spriteID: 75732b561538ef54780d38fccf802fc3
+    spriteID: 5b6419c7d9c9425438c5b74809090727
     layerID: 55
     mosaicPosition: {x: 43, y: 53}
   characterData:

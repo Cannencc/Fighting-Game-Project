@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Rogue-LeftArm
+  - name: Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -99,7 +99,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 32
+      y: 80
       width: 9
       height: 25
     spriteID: 686138c105e5773489c6ed3b3ae69f46
@@ -443,7 +443,7 @@ ScriptedImporter:
     - {x: 26, y: 28}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -29, y: -8}
+    uvTransform: {x: -29, y: 29}
   - name: Rogue-Sword
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1084,8 +1084,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 48
-      y: 4
+      x: 26
+      y: 77
       width: 8
       height: 10
     spriteID: 1fbd42bf31816ff4f9f28bd12b31539f
@@ -1270,7 +1270,7 @@ ScriptedImporter:
     - {x: 14, y: 4}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 12, y: -28}
+    uvTransform: {x: -10, y: 45}
   - name: Rogue-RightCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1278,8 +1278,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 98
+      x: 48
+      y: 4
       width: 9
       height: 18
     spriteID: 6adb10ae7de4de94d9030a5957a1dc0f
@@ -1586,7 +1586,7 @@ ScriptedImporter:
     - {x: 26, y: 6}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -29, y: 82}
+    uvTransform: {x: 15, y: -12}
   - name: Rogue-Waist
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1594,7 +1594,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 21
+      x: 4
       y: 32
       width: 14
       height: 16
@@ -1810,7 +1810,7 @@ ScriptedImporter:
     - {x: 0, y: 11}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -17, y: -3}
+    uvTransform: {x: -34, y: -3}
   - name: Rogue-LeftCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1818,8 +1818,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 21
-      y: 99
+      x: 26
+      y: 51
       width: 6
       height: 18
     spriteID: f06f6b7deaa6ac043937aec9f709898e
@@ -2020,7 +2020,7 @@ ScriptedImporter:
     - {x: 16, y: 4}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -26, y: 83}
+    uvTransform: {x: -21, y: 35}
   - name: Rogue-LeftThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2028,8 +2028,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 48
-      y: 22
+      x: 26
+      y: 95
       width: 7
       height: 11
     spriteID: 554d755c07810c146986956c49bac5ac
@@ -2214,7 +2214,7 @@ ScriptedImporter:
     - {x: 5, y: 14}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3, y: -8}
+    uvTransform: {x: -19, y: 65}
   - name: Rogue-Chest
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2222,7 +2222,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 21
+      x: 4
       y: 56
       width: 13
       height: 16
@@ -2423,318 +2423,7 @@ ScriptedImporter:
     - {x: 0, y: 11}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -18, y: 7}
-  - name: Rogue-RightArm
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 65
-      width: 9
-      height: 25
-    spriteID: 7b244786fd106f24e978018e8aeefb99
-    internalID: 0
-    spriteBone:
-    - name: Left Forearm Bone
-      position: {x: 8.634396, y: 0.0000005676921, z: 0}
-      rotation: {x: 0, y: 0, z: -0.079346634, w: 0.9968471}
-      length: 9.62553
-      parentId: 1
-    - name: Left Shoulder Bone
-      position: {x: 5.7817535, y: 20.46714, z: 0}
-      rotation: {x: 0, y: 0, z: -0.6571845, w: 0.75372976}
-      length: 8.634399
-      parentId: -1
-    spriteOutline: []
-    vertices:
-    - position: {x: 9, y: 0.5149994}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 7.5149994}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 12.514}
-      boneWeight:
-        weight0: 0.6400111
-        weight1: 0.35998896
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 17.514}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 22.514}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 25}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 4.401, y: 25}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 24.737}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.2550001, y: 19.446}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1.276, y: 14.9260025}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 2.6, y: 10.582001}
-      boneWeight:
-        weight0: 0.6699743
-        weight1: 0.33002567
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 1
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 2.736, y: 5.679001}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 2, y: 1.0719986}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5.5389996, y: 0.32299805}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5.464966, y: 3.6185455}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 6.4299345, y: 10.515121}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5.427125, y: 7.3602066}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 6.0685253, y: 21.38726}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 3.1161518, y: 20.977043}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 4.972521, y: 17.574326}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5.015177, y: 13.938812}
-      boneWeight:
-        weight0: 0.99999994
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 4.0149994}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.12750006, y: 21.93}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.76550007, y: 17.186005}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 20.014}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 15.014}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    spritePhysicsOutline: []
-    indices: 140000000a0000000900000011000000040000001800000011000000050000000400000013000000110000001800000013000000180000000300000019000000020000001400000019000000130000000300000002000000010000000f0000001500000010000000010000000e0000001500000000000000020000000f000000140000000d0000000e000000000000000c0000000e0000000d0000000f0000000100000010000000060000000500000011000000100000000a0000000f0000001100000013000000120000001200000006000000110000001200000007000000060000000900000017000000130000001200000013000000170000000800000016000000120000001600000007000000120000001300000014000000090000000e0000000c0000000b0000000b0000000a000000100000001900000014000000130000000b000000100000000e000000140000000f0000000a00000017000000080000001200000010000000150000000e000000
-    edges:
-    - {x: 1, y: 21}
-    - {x: 2, y: 1}
-    - {x: 3, y: 25}
-    - {x: 4, y: 24}
-    - {x: 5, y: 4}
-    - {x: 6, y: 5}
-    - {x: 7, y: 6}
-    - {x: 8, y: 22}
-    - {x: 9, y: 23}
-    - {x: 10, y: 9}
-    - {x: 11, y: 10}
-    - {x: 12, y: 11}
-    - {x: 13, y: 12}
-    - {x: 0, y: 13}
-    - {x: 21, y: 0}
-    - {x: 22, y: 7}
-    - {x: 8, y: 23}
-    - {x: 24, y: 3}
-    - {x: 25, y: 2}
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -42, y: 25}
+    uvTransform: {x: -35, y: 7}
   - name: Rogue-Head
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2742,8 +2431,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 21
-      y: 80
+      x: 26
+      y: 32
       width: 11
       height: 11
     spriteID: 0bede32c9a44e574ba20129b82e89557
@@ -2922,7 +2611,73 @@ ScriptedImporter:
     - {x: 10, y: 9}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -19, y: 15}
+    uvTransform: {x: -14, y: -33}
+  - name: Rogue-RightForearm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 32
+      width: 5
+      height: 13
+    spriteID: 5098de23e86bd2043be407cc709d5ce9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 12, y: -8}
+  - name: Rogue-LeftShoulder
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 102
+      width: 9
+      height: 14
+    spriteID: 856b6d4d6a3a9ae408b606e8897a67de
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -42, y: 51}
+  - name: Rogue-LeftForearm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 53
+      width: 5
+      height: 13
+    spriteID: 3007a9e5db3913b42b6f7cfbf1c209cd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -6, y: 13}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -2971,13 +2726,27 @@ ScriptedImporter:
     spriteID: 00000000000000000000000000000000
     layerID: 21
     mosaicPosition: {x: 0, y: 0}
-  - name: Rogue-LeftArm
-    spriteName: Rogue-LeftArm
+  - name: Rogue-Head
+    spriteName: Rogue-Head
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0bede32c9a44e574ba20129b82e89557
+    layerID: 18
+    mosaicPosition: {x: 26, y: 32}
+  - name: Rogue-RightShoulder
+    spriteName: Rogue-RightShoulder
     isGroup: 0
     parentIndex: 0
     spriteID: 686138c105e5773489c6ed3b3ae69f46
     layerID: 14
-    mosaicPosition: {x: 4, y: 32}
+    mosaicPosition: {x: 4, y: 80}
+  - name: Rogue-RightForearm
+    spriteName: Rogue-RightForearm
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5098de23e86bd2043be407cc709d5ce9
+    layerID: 37
+    mosaicPosition: {x: 45, y: 32}
   - name: Rogue-Sword
     spriteName: Rogue-Sword
     isGroup: 0
@@ -2991,56 +2760,56 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 1fbd42bf31816ff4f9f28bd12b31539f
     layerID: 8
-    mosaicPosition: {x: 48, y: 4}
+    mosaicPosition: {x: 26, y: 77}
   - name: Rogue-RightCalf
     spriteName: Rogue-RightCalf
     isGroup: 0
     parentIndex: 0
     spriteID: 6adb10ae7de4de94d9030a5957a1dc0f
     layerID: 7
-    mosaicPosition: {x: 4, y: 98}
+    mosaicPosition: {x: 48, y: 4}
   - name: Rogue-Waist
     spriteName: Rogue-Waist
     isGroup: 0
     parentIndex: 0
     spriteID: 5313dafc4de275746a1887161ce6b517
     layerID: 11
-    mosaicPosition: {x: 21, y: 32}
+    mosaicPosition: {x: 4, y: 32}
   - name: Rogue-LeftCalf
     spriteName: Rogue-LeftCalf
     isGroup: 0
     parentIndex: 0
     spriteID: f06f6b7deaa6ac043937aec9f709898e
     layerID: 12
-    mosaicPosition: {x: 21, y: 99}
+    mosaicPosition: {x: 26, y: 51}
   - name: Rogue-LeftThigh
     spriteName: Rogue-LeftThigh
     isGroup: 0
     parentIndex: 0
     spriteID: 554d755c07810c146986956c49bac5ac
     layerID: 13
-    mosaicPosition: {x: 48, y: 22}
+    mosaicPosition: {x: 26, y: 95}
   - name: Rogue-Chest
     spriteName: Rogue-Chest
     isGroup: 0
     parentIndex: 0
     spriteID: d58bcc254201d6048b02f3d08a31b30d
     layerID: 17
-    mosaicPosition: {x: 21, y: 56}
-  - name: Rogue-RightArm
-    spriteName: Rogue-RightArm
+    mosaicPosition: {x: 4, y: 56}
+  - name: Rogue-LeftShoulder
+    spriteName: Rogue-LeftShoulder
     isGroup: 0
     parentIndex: 0
-    spriteID: 7b244786fd106f24e978018e8aeefb99
-    layerID: 20
-    mosaicPosition: {x: 4, y: 65}
-  - name: Rogue-Head
-    spriteName: Rogue-Head
+    spriteID: 856b6d4d6a3a9ae408b606e8897a67de
+    layerID: 39
+    mosaicPosition: {x: 4, y: 102}
+  - name: Rogue-LeftForearm
+    spriteName: Rogue-LeftForearm
     isGroup: 0
     parentIndex: 0
-    spriteID: 0bede32c9a44e574ba20129b82e89557
-    layerID: 18
-    mosaicPosition: {x: 21, y: 80}
+    spriteID: 3007a9e5db3913b42b6f7cfbf1c209cd
+    layerID: 40
+    mosaicPosition: {x: 45, y: 53}
   characterData:
     bones:
     - name: Root Bone

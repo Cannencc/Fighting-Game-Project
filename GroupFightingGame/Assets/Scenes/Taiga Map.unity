@@ -222,12 +222,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 12706905}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 0
+  speedAway: 0
+  speedJump: 0
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 1538979909063542121}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &12706905
 Rigidbody2D:
   serializedVersion: 4
@@ -338,6 +345,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
@@ -2975,10 +2986,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPrefabs:
-  - {fileID: 5449304494981682632, guid: 3cd148bd1e0f07741bed7284eaf346ca, type: 3}
-  - {fileID: 4124988857813369536, guid: 2b763a1cfca036146b45354668ba0e16, type: 3}
+  - {fileID: 939348432324201948, guid: 62bc773c03631b1438a8b933832582ef, type: 3}
+  - {fileID: 9120014242618197269, guid: 96679b39ada93a0438397d9adb3e3f8f, type: 3}
+  - {fileID: 3880871013141746659, guid: 02aa4f3415fb22e4a8170503d2def536, type: 3}
+  - {fileID: 5402674003613030238, guid: 2bdb2b50685ec8e4bba9593a4690f0b3, type: 3}
+  - {fileID: 8605699663955519115, guid: caf47604a40893f42a5b238e407ff728, type: 3}
+  - {fileID: 8270901595367349885, guid: f15846905a259ba419282bd1958e6d8c, type: 3}
+  - {fileID: 3646564834397124926, guid: aeea19476c2c7a04daf09419acd8810f, type: 3}
   skinPrefabs:
-  - {fileID: 1046725994}
+  - {fileID: 6939804535535110769, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
   - {fileID: 6849296820367475815, guid: c8b9324b595d8cf498c61d8d948ed45e, type: 3}
   parent: {fileID: 1288000765}
   spawn: {x: 0, y: 0, z: 0}
@@ -14909,7 +14925,7 @@ AudioSource:
   m_GameObject: {fileID: 889555021}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 383365bc42d29a84ca44802ba77eab70, type: 2}
   m_audioClip: {fileID: 8300000, guid: e53144a2ac4e33647a740db9c8dd8786, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.565
@@ -15732,12 +15748,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 962548661}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 0}
   P2healthBar: {fileID: 1538979909063542121}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &962548661
 Rigidbody2D:
   serializedVersion: 4
@@ -15848,6 +15871,26 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 962548660}
+        m_TargetAssemblyTypeName: PlayerControllerTest, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8aaf02af-fa11-45d8-9f2f-46a40d67daa8
+    m_ActionName: Player2/P2 Light Attack[/Keyboard/numpadPlus]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
@@ -16130,11 +16173,6 @@ SpriteRenderer:
 --- !u!4 &1046725993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2863806689681634778, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
-  m_PrefabInstance: {fileID: 5250571448514671508}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1046725994 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6939804535535110769, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
   m_PrefabInstance: {fileID: 5250571448514671508}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1049941413
@@ -17671,12 +17709,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 1288000762}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 1538979909063542122}
   P2healthBar: {fileID: 0}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &1288000762
 Rigidbody2D:
   serializedVersion: 4
@@ -17787,6 +17832,26 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1288000761}
+        m_TargetAssemblyTypeName: PlayerControllerTest, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8aaf02af-fa11-45d8-9f2f-46a40d67daa8
+    m_ActionName: Player2/P2 Light Attack[/Keyboard/numpadPlus]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player1
@@ -20301,10 +20366,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPrefabs:
-  - {fileID: 5449304494981682632, guid: 3cd148bd1e0f07741bed7284eaf346ca, type: 3}
-  - {fileID: 4124988857813369536, guid: 2b763a1cfca036146b45354668ba0e16, type: 3}
+  - {fileID: 939348432324201948, guid: 62bc773c03631b1438a8b933832582ef, type: 3}
+  - {fileID: 9120014242618197269, guid: 96679b39ada93a0438397d9adb3e3f8f, type: 3}
+  - {fileID: 3880871013141746659, guid: 02aa4f3415fb22e4a8170503d2def536, type: 3}
+  - {fileID: 5402674003613030238, guid: 2bdb2b50685ec8e4bba9593a4690f0b3, type: 3}
+  - {fileID: 8605699663955519115, guid: caf47604a40893f42a5b238e407ff728, type: 3}
+  - {fileID: 8270901595367349885, guid: f15846905a259ba419282bd1958e6d8c, type: 3}
+  - {fileID: 3646564834397124926, guid: aeea19476c2c7a04daf09419acd8810f, type: 3}
   skinPrefabs:
-  - {fileID: 1046725994}
+  - {fileID: 6939804535535110769, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
   - {fileID: 6849296820367475815, guid: c8b9324b595d8cf498c61d8d948ed45e, type: 3}
   parent: {fileID: 962548664}
   spawn: {x: 0, y: 0, z: 0}
@@ -21108,12 +21178,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8425033fedcfe2745925da2331c41446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
   body: {fileID: 1846873606}
-  speedH: 5
-  speedJ: 2
+  speedTowards: 2
+  speedAway: 1
+  speedJump: 2
   maxHealth: 100
   P1healthBar: {fileID: 1538979909063542122}
   P2healthBar: {fileID: 0}
+  attackHitBox: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &1846873606
 Rigidbody2D:
   serializedVersion: 4
@@ -21224,6 +21301,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
+    m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player1
@@ -22879,7 +22960,7 @@ AudioSource:
   m_GameObject: {fileID: 2093633297}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 383365bc42d29a84ca44802ba77eab70, type: 2}
   m_audioClip: {fileID: 8300000, guid: 15d062dd0c761c64ba2e851587c2fd35, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.507
