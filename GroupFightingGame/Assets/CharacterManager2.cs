@@ -13,9 +13,11 @@ public class CharacterManager2 : MonoBehaviour
 
     public void Start()
     {
-        skins[0].SetActive(false); 
-        skins[1].SetActive(false); 
-        characters[1].SetActive(false);
+        for (int i = 1; i < 8; i++)
+        {
+            characters[i].SetActive(false);
+            skins[i].SetActive(false);
+        }
     }
 
     public void Next()

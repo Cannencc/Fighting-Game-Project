@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e14233a4a342ea147b1447d2bcb403c2
+guid: c8fa4aef4afeec045b07813e629ec2c6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,7 +46,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 0
@@ -91,28 +91,6 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Rogue-Head
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 89
-      y: 64
-      width: 14
-      height: 16
-    spriteID: 21d717624014e20459cc9591094ce2e7
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 44, y: -1}
   - name: Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -120,11 +98,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 42
-      y: 88
+      x: 182
+      y: 113
       width: 9
       height: 14
-    spriteID: 144ef9360c0d5fe478274902566bb601
+    spriteID: d4d7124115cd8524390c77bc3ae2b166
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -134,7 +112,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5, y: 37}
+    uvTransform: {x: 145, y: 62}
   - name: Rogue-RightForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -142,11 +120,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 56
-      y: 166
+      x: 166
+      y: 139
       width: 5
       height: 13
-    spriteID: 3dd7f2c73b10238438158704eaa7446e
+    spriteID: b76282fe19af54b4db4647de970c0986
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -156,272 +134,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 19, y: 126}
+    uvTransform: {x: 129, y: 99}
   - name: Rogue-Sword
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 40
-      height: 24
-    spriteID: 69b5ea2a9355e7c45bbed57cad1dfcb1
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -33, y: -35}
-  - name: Rogue-RightThigh
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 87
-      y: 140
-      width: 8
-      height: 10
-    spriteID: 9c484258505194d40a1f5aa702edc64c
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 47, y: 108}
-  - name: Rogue-RightCalf
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 89
-      y: 113
-      width: 9
-      height: 18
-    spriteID: 88f65c8ba21f59846a0c204896dd57b9
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 52, y: 97}
-  - name: Rogue-Chest
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 229
-      y: 4
-      width: 15
-      height: 24
-    spriteID: f65e8580977505a4baa4d0533ec5642c
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 187, y: -37}
-  - name: Rogue-Waist
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 64
-      width: 14
-      height: 16
-    spriteID: d000018d5ab739147a3498338ed14da8
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -38, y: 29}
-  - name: Rogue-LeftCalf
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 46
-      y: 140
-      width: 6
-      height: 18
-    spriteID: 2d5553e4674df974593ec430a7d22c78
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -5, y: 124}
-  - name: Rogue-LeftThigh
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 164
-      y: 140
-      width: 7
-      height: 11
-    spriteID: 33433f89ca9a36348812755daecfd9c9
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 115, y: 110}
-  - name: Rogue-LeftShoulder
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 59
-      y: 88
-      width: 9
-      height: 14
-    spriteID: db26d2c07f9613245b67ae7a53da560f
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 9, y: 37}
-  - name: Rogue-LeftForearm
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 69
-      y: 166
-      width: 5
-      height: 13
-    spriteID: d5fe63eb2182a9943a9aaf328e404c72
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 14, y: 126}
-  - name: Rogue-Head_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 110
-      y: 88
-      width: 11
-      height: 11
-    spriteID: 86abbb70ce235d14b9021d3e10126615
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 66, y: 23}
-  - name: Rogue-RightShoulder_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 194
-      y: 113
-      width: 9
-      height: 14
-    spriteID: c1fbbf7af97acb040b0bfa3959ddf5fc
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 157, y: 62}
-  - name: Rogue-RightForearm_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 194
-      y: 140
-      width: 5
-      height: 13
-    spriteID: 83a89296de0026141ac6148944601d71
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 157, y: 100}
-  - name: Rogue-Sword_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -432,7 +146,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 20
-    spriteID: d2cded53bf53a21488d10af5d8fa4160
+    spriteID: 6e2d04479c35a2c4c95f93e027340c19
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -443,18 +157,18 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 60, y: -35}
-  - name: Rogue-Chest_1
+  - name: Rogue-Chest
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 26
+      x: 68
       y: 64
       width: 13
       height: 16
-    spriteID: de86cbf918b483f4c8f82a05690bc044
+    spriteID: a27162feae22a354b894feb9260986fc
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -464,19 +178,41 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -17, y: 15}
-  - name: Rogue-Waist_1
+    uvTransform: {x: 25, y: 15}
+  - name: Rogue-Head
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 167
+      x: 215
+      y: 64
+      width: 11
+      height: 14
+    spriteID: 4008a9e7bb790914c8138c73ab210e78
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 171, y: 2}
+  - name: Rogue-Waist
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
       y: 36
       width: 14
       height: 16
-    spriteID: 5af307477f92d984b9922ea9bd2785cb
+    spriteID: 9a3ebba1d94802f41834b852adc4660e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -486,41 +222,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 125, y: 1}
-  - name: Rogue-RightThigh_1
+    uvTransform: {x: 152, y: 1}
+  - name: Rogue-RightThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 197
+      x: 113
       y: 88
-      width: 8
-      height: 10
-    spriteID: ca22c476a6b67e944ab5645a497b9777
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 157, y: 56}
-  - name: Rogue-RightCalf_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 21
-      y: 113
       width: 9
-      height: 18
-    spriteID: 672ad7caf50e3c242badd3dbb803d198
+      height: 13
+    spriteID: d1e2b60e60a317a428135dd19de91f84
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -530,30 +244,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -16, y: 97}
-  - name: Rogue-LeftThigh_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 245
-      y: 88
-      width: 7
-      height: 11
-    spriteID: 2ad6623047ba54040a0ea2f965035e8a
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 196, y: 58}
-  - name: Rogue-LeftCalf_1
+    uvTransform: {x: 73, y: 56}
+  - name: Rogue-RightCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -561,10 +253,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 140
-      width: 6
+      y: 147
+      width: 9
       height: 18
-    spriteID: 6bc86110763d22e408ff95a461a18a75
+    spriteID: 77dac0331d1a81749a62d28283d3d606
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -574,19 +266,63 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -47, y: 124}
-  - name: Rogue-LeftShoulder_1
+    uvTransform: {x: -33, y: 131}
+  - name: Rogue-LeftThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
+      x: 214
+      y: 88
+      width: 7
+      height: 14
+    spriteID: f2f7144a499dbdf48b8c46e2c6bbb20e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 165, y: 58}
+  - name: Rogue-LeftCalf
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 139
+      width: 6
+      height: 18
+    spriteID: 843a1b940fd520a4aa9fa3f0f91b503e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -13, y: 123}
+  - name: Rogue-LeftShoulder
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
       y: 113
       width: 9
       height: 14
-    spriteID: d0c665eda5a005a4e9a1e226cfb05fef
+    spriteID: e7990551a5f8d9d4589cef0e3208fc69
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -596,19 +332,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 161, y: 62}
-  - name: Rogue-LeftForearm_1
+    uvTransform: {x: 149, y: 62}
+  - name: Rogue-LeftForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 207
-      y: 140
+      x: 179
+      y: 139
       width: 5
       height: 13
-    spriteID: 45a0d3b0a99f5954e8f48e9ae103350c
+    spriteID: 81ac11b12b117c841ad983bac75f9e25
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -618,29 +354,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 152, y: 100}
-  - name: Blue-Rogue-Head
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 129
-      y: 88
-      width: 11
-      height: 11
-    spriteID: ec49e9f609934234da6fd1b298cb81f4
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 85, y: 23}
+    uvTransform: {x: 124, y: 99}
   - name: Blue-Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -648,11 +362,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 123
+      x: 76
       y: 113
       width: 9
       height: 16
-    spriteID: 54a0a8d250fb95741b5d997e9768ffa4
+    spriteID: 2a7fd7392d7f22c4b9b1cd5c7c319bed
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -662,7 +376,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 86, y: 62}
+    uvTransform: {x: 39, y: 62}
   - name: Blue-Rogue-RightForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -670,11 +384,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 220
-      y: 140
+      x: 192
+      y: 139
       width: 5
       height: 13
-    spriteID: 27d89414a7a6a684ea0a784b94e2c222
+    spriteID: 120d9b1e2ac631845a03888d6e3e6665
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -684,7 +398,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 183, y: 100}
+    uvTransform: {x: 155, y: 99}
   - name: Blue-Rogue-Sword
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -696,7 +410,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 20
-    spriteID: 6b9ef02823eb1fc428ce9b2b6bcf3fdb
+    spriteID: 5c5222f2cb925cd419b6007645379c55
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -714,11 +428,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 47
+      x: 89
       y: 64
       width: 13
       height: 16
-    spriteID: 1435b8ebf82e48d4d88276b65a1878cf
+    spriteID: 1fbac95fa17bb7e49ac9d5f39aa4225f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -728,7 +442,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 15}
+    uvTransform: {x: 46, y: 15}
+  - name: Blue-Rogue-Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 64
+      width: 11
+      height: 14
+    spriteID: c032aa0e7adaf34488fd32f08ed7a3fa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 190, y: 2}
   - name: Blue-Rogue-Waist
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -736,11 +472,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 189
+      x: 216
       y: 36
       width: 14
       height: 16
-    spriteID: 92a5d4fbb9855a148b3930015f649b54
+    spriteID: 0692ff2a067b3fd489bb2e43a6871fa7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -750,7 +486,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 147, y: 1}
+    uvTransform: {x: 174, y: 1}
   - name: Blue-Rogue-RightThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -758,11 +494,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 213
+      x: 130
       y: 88
-      width: 8
-      height: 10
-    spriteID: e07d8f385bf22354584190ac6ea2c80f
+      width: 9
+      height: 13
+    spriteID: bf0bfe66b2f6b594e9a60ee0b2521240
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -772,7 +508,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 173, y: 56}
+    uvTransform: {x: 90, y: 56}
   - name: Blue-Rogue-RightCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -780,11 +516,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 38
-      y: 113
+      x: 4
+      y: 173
       width: 9
       height: 18
-    spriteID: b2e1aa16c4da8ca43927ddeec505efb0
+    spriteID: 1ff95a8803ac00e49b0c4bc248c0f81f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -794,7 +530,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1, y: 97}
+    uvTransform: {x: -33, y: 157}
   - name: Blue-Rogue-LeftThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -802,11 +538,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 119
-      y: 140
+      x: 229
+      y: 88
       width: 7
-      height: 11
-    spriteID: 6906333bf89ead44ab22611a40a0a494
+      height: 14
+    spriteID: affcf34a87403a146b93eaaf807ba36e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -816,7 +552,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 70, y: 110}
+    uvTransform: {x: 180, y: 58}
   - name: Blue-Rogue-LeftCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -824,11 +560,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 74
-      y: 140
+      x: 153
+      y: 139
       width: 5
       height: 18
-    spriteID: b4a2ee9f7f76689409327e0b49be5c15
+    spriteID: 6c4a26ed4d647ce488ecbc451e566d61
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -838,7 +574,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 23, y: 124}
+    uvTransform: {x: 102, y: 123}
   - name: Blue-Rogue-LeftShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -846,11 +582,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 201
+      x: 196
       y: 64
       width: 11
       height: 15
-    spriteID: a3c1b16825293e046b6ffcacdcb336ec
+    spriteID: 0396813bd64ec8e4aabe50d8c37b6e40
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -860,7 +596,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 151, y: 13}
+    uvTransform: {x: 146, y: 13}
   - name: Blue-Rogue-LeftForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -868,11 +604,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 233
-      y: 140
+      x: 205
+      y: 139
       width: 5
       height: 13
-    spriteID: 80bdeeb6e96f5044292c64d8f856dc67
+    spriteID: 114512aa5ed01594a896a7e2548cbee4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -882,29 +618,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 178, y: 100}
-  - name: White-Rogue-Head
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 220
-      y: 64
-      width: 11
-      height: 15
-    spriteID: 6e3c2bab0cd391b4a97dd5c0756e6d15
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 176, y: -1}
+    uvTransform: {x: 150, y: 99}
   - name: White-Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -912,11 +626,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 228
+      x: 216
       y: 113
       width: 9
       height: 14
-    spriteID: f6f4d55262e50854682b7025a3fd3823
+    spriteID: ece7f4dc312c3b54aa4e617c40ab2b3a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -926,7 +640,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 191, y: 62}
+    uvTransform: {x: 179, y: 62}
   - name: White-Rogue-RightForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -934,11 +648,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 246
-      y: 140
+      x: 218
+      y: 139
       width: 5
       height: 13
-    spriteID: c8f8eff96d7a7624392e197b55749130
+    spriteID: c2826aec462857d46847ebc5efd20f16
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -948,7 +662,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 209, y: 100}
+    uvTransform: {x: 181, y: 99}
   - name: White-Rogue-Sword
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -960,7 +674,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 20
-    spriteID: d49ca2e280cc4a7419123cc727f53e6b
+    spriteID: b65d6b94dbcb36c40a141db14ed39e1e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -978,11 +692,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
+      x: 110
       y: 64
       width: 13
       height: 16
-    spriteID: bbf6503206be96a4cbe1964aa5658c2d
+    spriteID: 64d709a99b6762c4580f88e4a78e2a78
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -992,7 +706,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 25, y: 15}
+    uvTransform: {x: 67, y: 15}
+  - name: White-Rogue-Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 94
+      width: 11
+      height: 18
+    spriteID: 2fe0628b8e235874fb7ef94089eb1974
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -40, y: 32}
   - name: White-Rogue-Waist
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1000,11 +736,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
+      x: 238
       y: 36
       width: 14
       height: 16
-    spriteID: 1d6713e9c25950b4d968062d5d6f29b8
+    spriteID: 24f7a799c9b89314b9fd6afe5e479d8b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1014,7 +750,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 169, y: 1}
+    uvTransform: {x: 196, y: 1}
   - name: White-Rogue-RightThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1022,11 +758,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 229
+      x: 147
       y: 88
-      width: 8
-      height: 10
-    spriteID: 44507e0cd2e172a448d8ad1d4e3c1726
+      width: 9
+      height: 13
+    spriteID: 248f0dc9433eb1a4ab472c13afdf0936
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1036,7 +772,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 189, y: 56}
+    uvTransform: {x: 107, y: 56}
   - name: White-Rogue-RightCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1045,10 +781,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 113
+      y: 120
       width: 9
       height: 19
-    spriteID: 7865a34dced2d044089743a443968af2
+    spriteID: bd26dd23b7b906947b2f5713bcacae6b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1058,7 +794,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -33, y: 97}
+    uvTransform: {x: -33, y: 104}
   - name: White-Rogue-LeftThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1066,11 +802,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 134
-      y: 140
+      x: 244
+      y: 88
       width: 7
-      height: 11
-    spriteID: 09ab4ca54afa1cb4f96b4c9860841ff6
+      height: 14
+    spriteID: 3951fb7880fe77a46aade152cbaaa0bb
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1080,7 +816,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 85, y: 110}
+    uvTransform: {x: 195, y: 58}
   - name: White-Rogue-LeftCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1088,11 +824,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 245
-      y: 113
+      x: 24
+      y: 139
       width: 6
       height: 19
-    spriteID: 5f6c21ffed175e14cb13b0b9f145fcf6
+    spriteID: e2b231cfea6a15d43bf8883df992e318
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1102,7 +838,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 194, y: 97}
+    uvTransform: {x: -27, y: 123}
   - name: White-Rogue-LeftShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1110,11 +846,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 25
-      y: 88
+      x: 233
+      y: 113
       width: 9
       height: 14
-    spriteID: 60cf2f376d0a7a746a6bf41a721cb731
+    spriteID: 54a5621ad840cda42b872b3e93310ddb
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1124,7 +860,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -25, y: 37}
+    uvTransform: {x: 183, y: 62}
   - name: White-Rogue-LeftForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1132,11 +868,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 166
+      x: 231
+      y: 139
       width: 5
       height: 13
-    spriteID: 0e1ecf9863920c14291a282b2a9828bc
+    spriteID: 756c31f7135956f46bd9eb94cc99f331
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1146,29 +882,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -51, y: 126}
-  - name: Mythical-Rogue-Head
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 147
-      y: 36
-      width: 12
-      height: 19
-    spriteID: 60335f7cd2aadc540a765fde357ced21
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 104, y: -29}
+    uvTransform: {x: 176, y: 99}
   - name: Mythical-Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1176,11 +890,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 239
-      y: 64
+      x: 58
+      y: 113
       width: 10
       height: 15
-    spriteID: 6666c30b01feca34f8f046aa4c41a5e0
+    spriteID: 8957ab935cdec2d4f9b3b978ae3e6c64
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1190,7 +904,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 202, y: 13}
+    uvTransform: {x: 21, y: 62}
   - name: Mythical-Rogue-RightForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1198,11 +912,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 17
-      y: 166
+      x: 244
+      y: 139
       width: 5
       height: 13
-    spriteID: 539082884654f4c45b7f711314f8f6e9
+    spriteID: b32081506ff458244b8badc7b1e0bd7f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1212,7 +926,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -20, y: 126}
+    uvTransform: {x: 207, y: 99}
   - name: Mythical-Rogue-Sword
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1224,7 +938,7 @@ ScriptedImporter:
       y: 36
       width: 36
       height: 20
-    spriteID: 10ab87e303bb00947b61e4d1dfe75f30
+    spriteID: 5a91de4a887b0a141abbd558a41811c0
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1242,11 +956,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 24
       y: 88
       width: 13
       height: 17
-    spriteID: 120491e814c6be64dbaf6353f6988f54
+    spriteID: c6a60826e0abdbc4ab72f31adb2fa063
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1256,7 +970,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -39, y: 39}
+    uvTransform: {x: -19, y: 39}
+  - name: Mythical-Rogue-Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 64
+      width: 12
+      height: 22
+    spriteID: 68af6f1baf3befd4db637f051f7edb3a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -39, y: 2}
   - name: Mythical-Rogue-Waist
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1264,11 +1000,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 179
+      x: 174
       y: 64
       width: 14
       height: 13
-    spriteID: e88617aa0f28fb74cb1ba86d2a8bfa7e
+    spriteID: 3445716ea2d0bf14d9c971bcae075a34
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1278,7 +1014,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 137, y: 26}
+    uvTransform: {x: 132, y: 26}
   - name: Mythical-Rogue-RightThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1286,11 +1022,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 148
-      y: 88
-      width: 8
-      height: 12
-    spriteID: 15a0651963238594ba3266b2e732de15
+      x: 147
+      y: 113
+      width: 9
+      height: 15
+    spriteID: aef1d70b1092b6447aacdee3e853f84f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1300,7 +1036,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 108, y: 58}
+    uvTransform: {x: 107, y: 83}
   - name: Mythical-Rogue-RightCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1308,11 +1044,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 55
-      y: 113
+      x: 4
+      y: 199
       width: 9
       height: 18
-    spriteID: bb9747cf58b0da34a95e0043351c8014
+    spriteID: 3c044b7885c5c1d4280f249444ae04c8
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1322,7 +1058,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 18, y: 97}
+    uvTransform: {x: -33, y: 183}
   - name: Mythical-Rogue-LeftThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1330,11 +1066,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 149
-      y: 140
+      x: 108
+      y: 139
       width: 7
-      height: 11
-    spriteID: 043ff9e67f3810d4da821e51f98a6c83
+      height: 14
+    spriteID: 5fcf20f22c47d584a9b40efb5f9ea042
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1344,7 +1080,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 100, y: 110}
+    uvTransform: {x: 59, y: 109}
   - name: Mythical-Rogue-LeftCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1352,11 +1088,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 18
-      y: 140
+      x: 52
+      y: 139
       width: 6
       height: 18
-    spriteID: b89d3012138d7fc488ddf95b3d2853a4
+    spriteID: 1e1bb0d4a3680874e8c0c430b40d7a48
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1366,7 +1102,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -33, y: 124}
+    uvTransform: {x: 1, y: 123}
   - name: Mythical-Rogue-LeftShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1374,11 +1110,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 140
+      x: 93
       y: 113
       width: 10
       height: 14
-    spriteID: 7c95b8f62e2291945b0f153a57ae37d7
+    spriteID: 6913cbf161e220749997bb698714cb55
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1388,51 +1124,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 91, y: 62}
-  - name: Mythical-Rogue-LeftForearm
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 30
-      y: 166
-      width: 5
-      height: 13
-    spriteID: 85d978b5cf90c6449a139e6f1c08a6e6
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -25, y: 126}
-  - name: Samurai-Rogue-Head
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 123
-      y: 36
-      width: 16
-      height: 15
-    spriteID: 6e413b11b29d7104e8c7458ed00842af
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 80, y: -29}
+    uvTransform: {x: 44, y: 62}
   - name: Samura-Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1440,11 +1132,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 158
+      x: 111
       y: 113
       width: 10
       height: 14
-    spriteID: 9bf8712c2fe4c274ea82121a90917033
+    spriteID: 10d2d9c00b2e9ee4fa49597fd7b135e3
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1454,7 +1146,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 121, y: 62}
+    uvTransform: {x: 74, y: 62}
   - name: Samura-Rogue-RightForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1462,11 +1154,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
+      x: 24
       y: 166
       width: 5
       height: 13
-    spriteID: cf6171da4d34d4346a02c0b0e5ec3e5b
+    spriteID: e6beae33f65910f40a0c4c57504ad45a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1476,7 +1168,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 6, y: 126}
+    uvTransform: {x: -13, y: 126}
   - name: Samurai-Rogue-Sword
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1488,7 +1180,7 @@ ScriptedImporter:
       y: 4
       width: 37
       height: 24
-    spriteID: 909bc72e5a0ce1b499255fc659d71d3e
+    spriteID: 6a952beba9e809d42abe54fb50f0cea7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1506,11 +1198,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 233
-      y: 36
+      x: 24
+      y: 64
       width: 14
       height: 16
-    spriteID: 243fbd0fe378a214cbaab1b0b41f0499
+    spriteID: 093c96f80896ca545a2407f128cf564c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1520,7 +1212,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 190, y: -13}
+    uvTransform: {x: -19, y: 15}
+  - name: Samurai-Rogue-Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 36
+      width: 16
+      height: 18
+    spriteID: a170efd316f59b042930f4ae5deee3b4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 80, y: -26}
   - name: Samura-Rogue-Waist
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1532,7 +1246,7 @@ ScriptedImporter:
       y: 36
       width: 23
       height: 15
-    spriteID: e05c31691b47ae2468d51578c7524e8d
+    spriteID: 164776391f623c1498f73ef753d33ed2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1551,10 +1265,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 164
-      y: 88
-      width: 9
-      height: 10
-    spriteID: 98e580556e97b1c4b9d24d70d639272e
+      y: 113
+      width: 10
+      height: 13
+    spriteID: cad1e2981cbab134aaa107c3c0b7b3b4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1564,7 +1278,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 125, y: 56}
+    uvTransform: {x: 125, y: 81}
   - name: Samura-Rogue-RightCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1572,11 +1286,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 72
-      y: 113
+      x: 4
+      y: 225
       width: 9
       height: 18
-    spriteID: 352381318078dee4096392a15ea04422
+    spriteID: 9648f4b169fc4b649940eb4ca52f44c3
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1586,7 +1300,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 35, y: 97}
+    uvTransform: {x: -33, y: 209}
   - name: Samura-Rogue-LeftThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1594,11 +1308,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
+      x: 198
       y: 88
       width: 8
-      height: 11
-    spriteID: 7d013d1aa4f18394d9260dd485aaa5fd
+      height: 14
+    spriteID: e0ac9e891d070f24d87dfd43b103813b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1608,7 +1322,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 132, y: 58}
+    uvTransform: {x: 149, y: 58}
   - name: Samura-Rogue-LeftCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1616,11 +1330,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 32
-      y: 140
+      x: 66
+      y: 139
       width: 6
       height: 18
-    spriteID: 2dbf7900377d14748b6ea3697d5fafae
+    spriteID: 91651a16230169c429547b08ac4ffc68
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1630,7 +1344,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -19, y: 124}
+    uvTransform: {x: 15, y: 123}
   - name: Samurai-Rogue-LeftShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1638,11 +1352,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 176
+      x: 129
       y: 113
       width: 10
       height: 14
-    spriteID: e141790d73bea494f8ef8f3c0f1d1ace
+    spriteID: 1e057a3587e020a428b7c814237e1a7f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1652,7 +1366,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 127, y: 62}
+    uvTransform: {x: 80, y: 62}
   - name: Samurai-Rogue-LeftForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1660,11 +1374,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 108
+      x: 89
       y: 166
       width: 4
       height: 13
-    spriteID: d21c4b8c14495a5419bf7084bc2b30b9
+    spriteID: d6157732313526b419222edbdb10babf
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1674,19 +1388,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 52, y: 126}
-  - name: Viking-Rogue-Head
+    uvTransform: {x: 33, y: 126}
+  - name: Baker-Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 131
-      y: 64
-      width: 18
-      height: 11
-    spriteID: d0eb150421e98bc44af861aa6a4c6b76
+      x: 45
+      y: 88
+      width: 9
+      height: 14
+    spriteID: a8acf38ec970e1e4e8480b1996873b8a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1696,7 +1410,249 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 89, y: -1}
+    uvTransform: {x: 8, y: 37}
+  - name: Baker-Rogue-RightForearm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 166
+      width: 5
+      height: 13
+    spriteID: 6a9747f6f02221f4c93f8e941877a92a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 126}
+  - name: Baker-Rogue-Sword
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 40
+      height: 24
+    spriteID: dc51b3a1c43b3324eac35376d4ee3e71
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -33, y: -35}
+  - name: Baker-Rogue-Chest
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 4
+      width: 15
+      height: 24
+    spriteID: d635f58095be2e74196335f7e13782d5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 187, y: -37}
+  - name: Baker-Rogue-Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 147
+      y: 36
+      width: 13
+      height: 20
+    spriteID: 1c1a71a348c09954e9c3d76a3ac423f7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 102, y: -25}
+  - name: Baker-Rogue-Waist
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 64
+      width: 14
+      height: 16
+    spriteID: 6f451e7fd7a3828489a2d5c72d6f6dfa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 29}
+  - name: Baker-Rogue-RightThigh
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 88
+      width: 9
+      height: 13
+    spriteID: 24db9a29391cf89448bfce1a6d142ec4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 124, y: 56}
+  - name: Baker-Rogue-RightCalf
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 113
+      width: 9
+      height: 18
+    spriteID: 8240db21dcc65b542974963c0fc93a0e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -13, y: 97}
+  - name: Baker-Rogue-LeftThigh
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 139
+      width: 7
+      height: 14
+    spriteID: 58b0fdb9e677a6848b38c5092e41d7e6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 74, y: 109}
+  - name: Baker-Rogue-LeftCalf
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 139
+      width: 6
+      height: 18
+    spriteID: 4d1e7effbbdef3f49be19ae726fd4d18
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 29, y: 123}
+  - name: Baker-Rogue-LeftShoulder
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 88
+      width: 9
+      height: 14
+    spriteID: 9ae4bc4053cf30a4c87c18e7abf0a3d5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 12, y: 37}
+  - name: Baker-Rogue-LeftForearm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 166
+      width: 5
+      height: 13
+    spriteID: 0f8963734bf60a54ebc68d392dc8e47f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -5, y: 126}
   - name: Viking-Rogue-RightShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1704,11 +1660,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 76
+      x: 79
       y: 88
       width: 9
       height: 14
-    spriteID: 5378a8b3787a2874783a3d68116643c0
+    spriteID: 592d14e0cdb20184fa6cd720c54ed023
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1718,7 +1674,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 39, y: 37}
+    uvTransform: {x: 42, y: 37}
   - name: Viking-Rogue-RightForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1726,11 +1682,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 82
+      x: 63
       y: 166
       width: 5
       height: 13
-    spriteID: fa660840d927fc544862bde65320a02a
+    spriteID: 7334ec9eba6650a44a5a2f953957da24
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1740,7 +1696,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 45, y: 126}
+    uvTransform: {x: 26, y: 126}
   - name: Viking-Rogue-Sword
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1752,7 +1708,7 @@ ScriptedImporter:
       y: 36
       width: 36
       height: 20
-    spriteID: 3d3bdae2568efc34c93ab10dbe286bf5
+    spriteID: 34d104c5b8cd62f42999fcbbadeeedfa
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1770,11 +1726,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 110
+      x: 131
       y: 64
       width: 13
       height: 16
-    spriteID: d99294d5d4193a14ba31b12c5577b17e
+    spriteID: db78a3df75435b94a944fe67b0ee5d5f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1784,7 +1740,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 67, y: 15}
+    uvTransform: {x: 88, y: 15}
+  - name: Viking-Rogue-Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 36
+      width: 18
+      height: 14
+    spriteID: 868feb72f29269b4dbf440be6d9b536b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 126, y: -26}
   - name: Viking-Rogue-Waist
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1792,11 +1770,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 157
+      x: 152
       y: 64
       width: 14
       height: 14
-    spriteID: e8f59a9ff31e7c44f9503bdb990784c3
+    spriteID: c70359b00f81989499373f29509b0957
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1806,7 +1784,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 115, y: 27}
+    uvTransform: {x: 110, y: 27}
   - name: Viking-Rogue-RightThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1814,11 +1792,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 103
-      y: 140
-      width: 8
-      height: 10
-    spriteID: 286190e030d822941bdde5033f6d1fd4
+      x: 181
+      y: 88
+      width: 9
+      height: 13
+    spriteID: eef5998028a892f4abd02797a7e89511
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1828,7 +1806,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 63, y: 108}
+    uvTransform: {x: 141, y: 56}
   - name: Viking-Rogue-RightCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1836,11 +1814,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 106
+      x: 41
       y: 113
       width: 9
       height: 18
-    spriteID: 9531727448458c7428b4c0f6934d5a9f
+    spriteID: 6af93946c57d2cc44b91e63cc7e60abe
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1850,7 +1828,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 69, y: 97}
+    uvTransform: {x: 4, y: 97}
   - name: Viking-Rogue-LeftThigh
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1858,11 +1836,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 179
-      y: 140
+      x: 138
+      y: 139
       width: 7
-      height: 11
-    spriteID: 427a22c169f5bf84c9a31a53bf220364
+      height: 14
+    spriteID: 1096a4a5a414dbd43a7b8ab5ada2a890
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1872,7 +1850,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 130, y: 110}
+    uvTransform: {x: 89, y: 109}
   - name: Viking-Rogue-LeftCalf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1880,11 +1858,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 140
+      x: 94
+      y: 139
       width: 6
       height: 18
-    spriteID: 31d44352fbf38f54bb93f57d6f568113
+    spriteID: ddfeb97408ea58740aed48b8d12aa7d4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1894,7 +1872,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 9, y: 124}
+    uvTransform: {x: 43, y: 123}
   - name: Viking-Rogue-LeftShoulder
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1902,11 +1880,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 93
+      x: 96
       y: 88
       width: 9
       height: 14
-    spriteID: e1316e7f05e53284bb952315dee25b50
+    spriteID: 54e55e06f6f6fff4ea7d68387d3af2bf
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1916,7 +1894,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 43, y: 37}
+    uvTransform: {x: 46, y: 37}
   - name: Viking-Rogue-LeftForearm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1924,11 +1902,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 95
+      x: 76
       y: 166
       width: 5
       height: 13
-    spriteID: 93f01f845b27fa2428804af4676e18e5
+    spriteID: e2d39024ad282bc4ea0a9f3ce3ee63bc
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -1938,30 +1916,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 40, y: 126}
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+    uvTransform: {x: 21, y: 126}
+  platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
@@ -1984,646 +1940,639 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 21
     mosaicPosition: {x: 0, y: 0}
-  - name: Rogue-Head
-    spriteName: Rogue-Head_1
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 86abbb70ce235d14b9021d3e10126615
-    layerID: 18
-    mosaicPosition: {x: 110, y: 88}
   - name: Rogue-RightShoulder
-    spriteName: Rogue-RightShoulder_1
+    spriteName: Rogue-RightShoulder
     isGroup: 0
     parentIndex: 0
-    spriteID: c1fbbf7af97acb040b0bfa3959ddf5fc
+    spriteID: d4d7124115cd8524390c77bc3ae2b166
     layerID: 14
-    mosaicPosition: {x: 194, y: 113}
+    mosaicPosition: {x: 182, y: 113}
   - name: Rogue-RightForearm
-    spriteName: Rogue-RightForearm_1
+    spriteName: Rogue-RightForearm
     isGroup: 0
     parentIndex: 0
-    spriteID: 83a89296de0026141ac6148944601d71
+    spriteID: b76282fe19af54b4db4647de970c0986
     layerID: 37
-    mosaicPosition: {x: 194, y: 140}
+    mosaicPosition: {x: 166, y: 139}
   - name: Rogue-Sword
-    spriteName: Rogue-Sword_1
+    spriteName: Rogue-Sword
     isGroup: 0
     parentIndex: 0
-    spriteID: d2cded53bf53a21488d10af5d8fa4160
+    spriteID: 6e2d04479c35a2c4c95f93e027340c19
     layerID: 6
     mosaicPosition: {x: 97, y: 4}
   - name: Rogue-Chest
-    spriteName: Rogue-Chest_1
+    spriteName: Rogue-Chest
     isGroup: 0
     parentIndex: 0
-    spriteID: de86cbf918b483f4c8f82a05690bc044
+    spriteID: a27162feae22a354b894feb9260986fc
     layerID: 17
-    mosaicPosition: {x: 26, y: 64}
+    mosaicPosition: {x: 68, y: 64}
+  - name: Rogue-Head
+    spriteName: Rogue-Head
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4008a9e7bb790914c8138c73ab210e78
+    layerID: 18
+    mosaicPosition: {x: 215, y: 64}
   - name: Rogue-Waist
-    spriteName: Rogue-Waist_1
+    spriteName: Rogue-Waist
     isGroup: 0
     parentIndex: 0
-    spriteID: 5af307477f92d984b9922ea9bd2785cb
+    spriteID: 9a3ebba1d94802f41834b852adc4660e
     layerID: 11
-    mosaicPosition: {x: 167, y: 36}
+    mosaicPosition: {x: 194, y: 36}
   - name: Rogue-RightThigh
-    spriteName: Rogue-RightThigh_1
+    spriteName: Rogue-RightThigh
     isGroup: 0
     parentIndex: 0
-    spriteID: ca22c476a6b67e944ab5645a497b9777
+    spriteID: d1e2b60e60a317a428135dd19de91f84
     layerID: 8
-    mosaicPosition: {x: 197, y: 88}
+    mosaicPosition: {x: 113, y: 88}
   - name: Rogue-RightCalf
-    spriteName: Rogue-RightCalf_1
+    spriteName: Rogue-RightCalf
     isGroup: 0
     parentIndex: 0
-    spriteID: 672ad7caf50e3c242badd3dbb803d198
+    spriteID: 77dac0331d1a81749a62d28283d3d606
     layerID: 7
-    mosaicPosition: {x: 21, y: 113}
+    mosaicPosition: {x: 4, y: 147}
   - name: Rogue-LeftThigh
-    spriteName: Rogue-LeftThigh_1
+    spriteName: Rogue-LeftThigh
     isGroup: 0
     parentIndex: 0
-    spriteID: 2ad6623047ba54040a0ea2f965035e8a
+    spriteID: f2f7144a499dbdf48b8c46e2c6bbb20e
     layerID: 13
-    mosaicPosition: {x: 245, y: 88}
+    mosaicPosition: {x: 214, y: 88}
   - name: Rogue-LeftCalf
-    spriteName: Rogue-LeftCalf_1
+    spriteName: Rogue-LeftCalf
     isGroup: 0
     parentIndex: 0
-    spriteID: 6bc86110763d22e408ff95a461a18a75
+    spriteID: 843a1b940fd520a4aa9fa3f0f91b503e
     layerID: 12
-    mosaicPosition: {x: 4, y: 140}
+    mosaicPosition: {x: 38, y: 139}
   - name: Rogue-LeftShoulder
-    spriteName: Rogue-LeftShoulder_1
+    spriteName: Rogue-LeftShoulder
     isGroup: 0
     parentIndex: 0
-    spriteID: d0c665eda5a005a4e9a1e226cfb05fef
+    spriteID: e7990551a5f8d9d4589cef0e3208fc69
     layerID: 39
-    mosaicPosition: {x: 211, y: 113}
+    mosaicPosition: {x: 199, y: 113}
   - name: Rogue-LeftForearm
-    spriteName: Rogue-LeftForearm_1
+    spriteName: Rogue-LeftForearm
     isGroup: 0
     parentIndex: 0
-    spriteID: 45a0d3b0a99f5954e8f48e9ae103350c
+    spriteID: 81ac11b12b117c841ad983bac75f9e25
     layerID: 40
-    mosaicPosition: {x: 207, y: 140}
+    mosaicPosition: {x: 179, y: 139}
   - name: Zomb-Rogue
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 70
     mosaicPosition: {x: 0, y: 0}
-  - name: Blue-Rogue-Head
-    spriteName: Blue-Rogue-Head
-    isGroup: 0
-    parentIndex: 13
-    spriteID: ec49e9f609934234da6fd1b298cb81f4
-    layerID: 69
-    mosaicPosition: {x: 129, y: 88}
   - name: Blue-Rogue-RightShoulder
     spriteName: Blue-Rogue-RightShoulder
     isGroup: 0
     parentIndex: 13
-    spriteID: 54a0a8d250fb95741b5d997e9768ffa4
+    spriteID: 2a7fd7392d7f22c4b9b1cd5c7c319bed
     layerID: 68
-    mosaicPosition: {x: 123, y: 113}
+    mosaicPosition: {x: 76, y: 113}
   - name: Blue-Rogue-RightForearm
     spriteName: Blue-Rogue-RightForearm
     isGroup: 0
     parentIndex: 13
-    spriteID: 27d89414a7a6a684ea0a784b94e2c222
+    spriteID: 120d9b1e2ac631845a03888d6e3e6665
     layerID: 67
-    mosaicPosition: {x: 220, y: 140}
+    mosaicPosition: {x: 192, y: 139}
   - name: Blue-Rogue-Sword
     spriteName: Blue-Rogue-Sword
     isGroup: 0
     parentIndex: 13
-    spriteID: 6b9ef02823eb1fc428ce9b2b6bcf3fdb
+    spriteID: 5c5222f2cb925cd419b6007645379c55
     layerID: 66
     mosaicPosition: {x: 141, y: 4}
   - name: Blue-Rogue-Chest
     spriteName: Blue-Rogue-Chest
     isGroup: 0
     parentIndex: 13
-    spriteID: 1435b8ebf82e48d4d88276b65a1878cf
+    spriteID: 1fbac95fa17bb7e49ac9d5f39aa4225f
     layerID: 60
-    mosaicPosition: {x: 47, y: 64}
+    mosaicPosition: {x: 89, y: 64}
+  - name: Blue-Rogue-Head
+    spriteName: Blue-Rogue-Head
+    isGroup: 0
+    parentIndex: 13
+    spriteID: c032aa0e7adaf34488fd32f08ed7a3fa
+    layerID: 69
+    mosaicPosition: {x: 234, y: 64}
   - name: Blue-Rogue-Waist
     spriteName: Blue-Rogue-Waist
     isGroup: 0
     parentIndex: 13
-    spriteID: 92a5d4fbb9855a148b3930015f649b54
+    spriteID: 0692ff2a067b3fd489bb2e43a6871fa7
     layerID: 63
-    mosaicPosition: {x: 189, y: 36}
+    mosaicPosition: {x: 216, y: 36}
   - name: Blue-Rogue-RightThigh
     spriteName: Blue-Rogue-RightThigh
     isGroup: 0
     parentIndex: 13
-    spriteID: e07d8f385bf22354584190ac6ea2c80f
+    spriteID: bf0bfe66b2f6b594e9a60ee0b2521240
     layerID: 65
-    mosaicPosition: {x: 213, y: 88}
+    mosaicPosition: {x: 130, y: 88}
   - name: Blue-Rogue-RightCalf
     spriteName: Blue-Rogue-RightCalf
     isGroup: 0
     parentIndex: 13
-    spriteID: b2e1aa16c4da8ca43927ddeec505efb0
+    spriteID: 1ff95a8803ac00e49b0c4bc248c0f81f
     layerID: 64
-    mosaicPosition: {x: 38, y: 113}
+    mosaicPosition: {x: 4, y: 173}
   - name: Blue-Rogue-LeftThigh
     spriteName: Blue-Rogue-LeftThigh
     isGroup: 0
     parentIndex: 13
-    spriteID: 6906333bf89ead44ab22611a40a0a494
+    spriteID: affcf34a87403a146b93eaaf807ba36e
     layerID: 61
-    mosaicPosition: {x: 119, y: 140}
+    mosaicPosition: {x: 229, y: 88}
   - name: Blue-Rogue-LeftCalf
     spriteName: Blue-Rogue-LeftCalf
     isGroup: 0
     parentIndex: 13
-    spriteID: b4a2ee9f7f76689409327e0b49be5c15
+    spriteID: 6c4a26ed4d647ce488ecbc451e566d61
     layerID: 62
-    mosaicPosition: {x: 74, y: 140}
+    mosaicPosition: {x: 153, y: 139}
   - name: Blue-Rogue-LeftShoulder
     spriteName: Blue-Rogue-LeftShoulder
     isGroup: 0
     parentIndex: 13
-    spriteID: a3c1b16825293e046b6ffcacdcb336ec
+    spriteID: 0396813bd64ec8e4aabe50d8c37b6e40
     layerID: 59
-    mosaicPosition: {x: 201, y: 64}
+    mosaicPosition: {x: 196, y: 64}
   - name: Blue-Rogue-LeftForearm
     spriteName: Blue-Rogue-LeftForearm
     isGroup: 0
     parentIndex: 13
-    spriteID: 80bdeeb6e96f5044292c64d8f856dc67
+    spriteID: 114512aa5ed01594a896a7e2548cbee4
     layerID: 58
-    mosaicPosition: {x: 233, y: 140}
+    mosaicPosition: {x: 205, y: 139}
   - name: White-Rogue
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 84
     mosaicPosition: {x: 0, y: 0}
-  - name: White-Rogue-Head
-    spriteName: White-Rogue-Head
-    isGroup: 0
-    parentIndex: 26
-    spriteID: 6e3c2bab0cd391b4a97dd5c0756e6d15
-    layerID: 83
-    mosaicPosition: {x: 220, y: 64}
   - name: White-Rogue-RightShoulder
     spriteName: White-Rogue-RightShoulder
     isGroup: 0
     parentIndex: 26
-    spriteID: f6f4d55262e50854682b7025a3fd3823
+    spriteID: ece7f4dc312c3b54aa4e617c40ab2b3a
     layerID: 82
-    mosaicPosition: {x: 228, y: 113}
+    mosaicPosition: {x: 216, y: 113}
   - name: White-Rogue-RightForearm
     spriteName: White-Rogue-RightForearm
     isGroup: 0
     parentIndex: 26
-    spriteID: c8f8eff96d7a7624392e197b55749130
+    spriteID: c2826aec462857d46847ebc5efd20f16
     layerID: 81
-    mosaicPosition: {x: 246, y: 140}
+    mosaicPosition: {x: 218, y: 139}
   - name: White-Rogue-Sword
     spriteName: White-Rogue-Sword
     isGroup: 0
     parentIndex: 26
-    spriteID: d49ca2e280cc4a7419123cc727f53e6b
+    spriteID: b65d6b94dbcb36c40a141db14ed39e1e
     layerID: 80
     mosaicPosition: {x: 185, y: 4}
   - name: White-Rogue-Chest
     spriteName: White-Rogue-Chest
     isGroup: 0
     parentIndex: 26
-    spriteID: bbf6503206be96a4cbe1964aa5658c2d
+    spriteID: 64d709a99b6762c4580f88e4a78e2a78
     layerID: 74
-    mosaicPosition: {x: 68, y: 64}
+    mosaicPosition: {x: 110, y: 64}
+  - name: White-Rogue-Head
+    spriteName: White-Rogue-Head
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 2fe0628b8e235874fb7ef94089eb1974
+    layerID: 83
+    mosaicPosition: {x: 4, y: 94}
   - name: White-Rogue-Waist
     spriteName: White-Rogue-Waist
     isGroup: 0
     parentIndex: 26
-    spriteID: 1d6713e9c25950b4d968062d5d6f29b8
+    spriteID: 24f7a799c9b89314b9fd6afe5e479d8b
     layerID: 79
-    mosaicPosition: {x: 211, y: 36}
+    mosaicPosition: {x: 238, y: 36}
   - name: White-Rogue-RightThigh
     spriteName: White-Rogue-RightThigh
     isGroup: 0
     parentIndex: 26
-    spriteID: 44507e0cd2e172a448d8ad1d4e3c1726
+    spriteID: 248f0dc9433eb1a4ab472c13afdf0936
     layerID: 78
-    mosaicPosition: {x: 229, y: 88}
+    mosaicPosition: {x: 147, y: 88}
   - name: White-Rogue-RightCalf
     spriteName: White-Rogue-RightCalf
     isGroup: 0
     parentIndex: 26
-    spriteID: 7865a34dced2d044089743a443968af2
+    spriteID: bd26dd23b7b906947b2f5713bcacae6b
     layerID: 77
-    mosaicPosition: {x: 4, y: 113}
+    mosaicPosition: {x: 4, y: 120}
   - name: White-Rogue-LeftThigh
     spriteName: White-Rogue-LeftThigh
     isGroup: 0
     parentIndex: 26
-    spriteID: 09ab4ca54afa1cb4f96b4c9860841ff6
+    spriteID: 3951fb7880fe77a46aade152cbaaa0bb
     layerID: 76
-    mosaicPosition: {x: 134, y: 140}
+    mosaicPosition: {x: 244, y: 88}
   - name: White-Rogue-LeftCalf
     spriteName: White-Rogue-LeftCalf
     isGroup: 0
     parentIndex: 26
-    spriteID: 5f6c21ffed175e14cb13b0b9f145fcf6
+    spriteID: e2b231cfea6a15d43bf8883df992e318
     layerID: 75
-    mosaicPosition: {x: 245, y: 113}
+    mosaicPosition: {x: 24, y: 139}
   - name: White-Rogue-LeftShoulder
     spriteName: White-Rogue-LeftShoulder
     isGroup: 0
     parentIndex: 26
-    spriteID: 60cf2f376d0a7a746a6bf41a721cb731
+    spriteID: 54a5621ad840cda42b872b3e93310ddb
     layerID: 73
-    mosaicPosition: {x: 25, y: 88}
+    mosaicPosition: {x: 233, y: 113}
   - name: White-Rogue-LeftForearm
     spriteName: White-Rogue-LeftForearm
     isGroup: 0
     parentIndex: 26
-    spriteID: 0e1ecf9863920c14291a282b2a9828bc
+    spriteID: 756c31f7135956f46bd9eb94cc99f331
     layerID: 72
-    mosaicPosition: {x: 4, y: 166}
+    mosaicPosition: {x: 231, y: 139}
   - name: Mythical-Rogue
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 99
     mosaicPosition: {x: 0, y: 0}
-  - name: Mythical-Rogue-Head
-    spriteName: Mythical-Rogue-Head
-    isGroup: 0
-    parentIndex: 39
-    spriteID: 60335f7cd2aadc540a765fde357ced21
-    layerID: 98
-    mosaicPosition: {x: 147, y: 36}
   - name: Mythical-Rogue-RightShoulder
     spriteName: Mythical-Rogue-RightShoulder
     isGroup: 0
     parentIndex: 39
-    spriteID: 6666c30b01feca34f8f046aa4c41a5e0
+    spriteID: 8957ab935cdec2d4f9b3b978ae3e6c64
     layerID: 97
-    mosaicPosition: {x: 239, y: 64}
+    mosaicPosition: {x: 58, y: 113}
   - name: Mythical-Rogue-RightForearm
     spriteName: Mythical-Rogue-RightForearm
     isGroup: 0
     parentIndex: 39
-    spriteID: 539082884654f4c45b7f711314f8f6e9
+    spriteID: b32081506ff458244b8badc7b1e0bd7f
     layerID: 96
-    mosaicPosition: {x: 17, y: 166}
+    mosaicPosition: {x: 244, y: 139}
   - name: Mythical-Rogue-Sword
     spriteName: Mythical-Rogue-Sword
     isGroup: 0
     parentIndex: 39
-    spriteID: 10ab87e303bb00947b61e4d1dfe75f30
+    spriteID: 5a91de4a887b0a141abbd558a41811c0
     layerID: 95
     mosaicPosition: {x: 4, y: 36}
   - name: Mythical-Rogue-Chest
     spriteName: Mythical-Rogue-Chest
     isGroup: 0
     parentIndex: 39
-    spriteID: 120491e814c6be64dbaf6353f6988f54
+    spriteID: c6a60826e0abdbc4ab72f31adb2fa063
     layerID: 89
-    mosaicPosition: {x: 4, y: 88}
+    mosaicPosition: {x: 24, y: 88}
+  - name: Mythical-Rogue-Head
+    spriteName: Mythical-Rogue-Head
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 68af6f1baf3befd4db637f051f7edb3a
+    layerID: 98
+    mosaicPosition: {x: 4, y: 64}
   - name: Mythical-Rogue-Waist
     spriteName: Mythical-Rogue-Waist
     isGroup: 0
     parentIndex: 39
-    spriteID: e88617aa0f28fb74cb1ba86d2a8bfa7e
+    spriteID: 3445716ea2d0bf14d9c971bcae075a34
     layerID: 92
-    mosaicPosition: {x: 179, y: 64}
+    mosaicPosition: {x: 174, y: 64}
   - name: Mythical-Rogue-RightThigh
     spriteName: Mythical-Rogue-RightThigh
     isGroup: 0
     parentIndex: 39
-    spriteID: 15a0651963238594ba3266b2e732de15
+    spriteID: aef1d70b1092b6447aacdee3e853f84f
     layerID: 94
-    mosaicPosition: {x: 148, y: 88}
+    mosaicPosition: {x: 147, y: 113}
   - name: Mythical-Rogue-RightCalf
     spriteName: Mythical-Rogue-RightCalf
     isGroup: 0
     parentIndex: 39
-    spriteID: bb9747cf58b0da34a95e0043351c8014
+    spriteID: 3c044b7885c5c1d4280f249444ae04c8
     layerID: 93
-    mosaicPosition: {x: 55, y: 113}
+    mosaicPosition: {x: 4, y: 199}
   - name: Mythical-Rogue-LeftThigh
     spriteName: Mythical-Rogue-LeftThigh
     isGroup: 0
     parentIndex: 39
-    spriteID: 043ff9e67f3810d4da821e51f98a6c83
+    spriteID: 5fcf20f22c47d584a9b40efb5f9ea042
     layerID: 90
-    mosaicPosition: {x: 149, y: 140}
+    mosaicPosition: {x: 108, y: 139}
   - name: Mythical-Rogue-LeftCalf
     spriteName: Mythical-Rogue-LeftCalf
     isGroup: 0
     parentIndex: 39
-    spriteID: b89d3012138d7fc488ddf95b3d2853a4
+    spriteID: 1e1bb0d4a3680874e8c0c430b40d7a48
     layerID: 91
-    mosaicPosition: {x: 18, y: 140}
+    mosaicPosition: {x: 52, y: 139}
   - name: Mythical-Rogue-LeftShoulder
     spriteName: Mythical-Rogue-LeftShoulder
     isGroup: 0
     parentIndex: 39
-    spriteID: 7c95b8f62e2291945b0f153a57ae37d7
+    spriteID: 6913cbf161e220749997bb698714cb55
     layerID: 88
-    mosaicPosition: {x: 140, y: 113}
-  - name: Mythical-Rogue-LeftForearm
-    spriteName: Mythical-Rogue-LeftForearm
-    isGroup: 0
-    parentIndex: 39
-    spriteID: 85d978b5cf90c6449a139e6f1c08a6e6
-    layerID: 87
-    mosaicPosition: {x: 30, y: 166}
+    mosaicPosition: {x: 93, y: 113}
   - name: Samurai-Rogue
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 117
     mosaicPosition: {x: 0, y: 0}
-  - name: Samurai-Rogue-Head
-    spriteName: Samurai-Rogue-Head
-    isGroup: 0
-    parentIndex: 52
-    spriteID: 6e413b11b29d7104e8c7458ed00842af
-    layerID: 116
-    mosaicPosition: {x: 123, y: 36}
   - name: Samura-Rogue-RightShoulder
     spriteName: Samura-Rogue-RightShoulder
     isGroup: 0
-    parentIndex: 52
-    spriteID: 9bf8712c2fe4c274ea82121a90917033
+    parentIndex: 51
+    spriteID: 10d2d9c00b2e9ee4fa49597fd7b135e3
     layerID: 115
-    mosaicPosition: {x: 158, y: 113}
+    mosaicPosition: {x: 111, y: 113}
   - name: Samura-Rogue-RightForearm
     spriteName: Samura-Rogue-RightForearm
     isGroup: 0
-    parentIndex: 52
-    spriteID: cf6171da4d34d4346a02c0b0e5ec3e5b
+    parentIndex: 51
+    spriteID: e6beae33f65910f40a0c4c57504ad45a
     layerID: 114
-    mosaicPosition: {x: 43, y: 166}
+    mosaicPosition: {x: 24, y: 166}
   - name: Samurai-Rogue-Sword
     spriteName: Samurai-Rogue-Sword
     isGroup: 0
-    parentIndex: 52
-    spriteID: 909bc72e5a0ce1b499255fc659d71d3e
+    parentIndex: 51
+    spriteID: 6a952beba9e809d42abe54fb50f0cea7
     layerID: 123
     mosaicPosition: {x: 52, y: 4}
   - name: Samurai-Rogue-Chest
     spriteName: Samurai-Rogue-Chest
     isGroup: 0
-    parentIndex: 52
-    spriteID: 243fbd0fe378a214cbaab1b0b41f0499
+    parentIndex: 51
+    spriteID: 093c96f80896ca545a2407f128cf564c
     layerID: 118
-    mosaicPosition: {x: 233, y: 36}
+    mosaicPosition: {x: 24, y: 64}
+  - name: Samurai-Rogue-Head
+    spriteName: Samurai-Rogue-Head
+    isGroup: 0
+    parentIndex: 51
+    spriteID: a170efd316f59b042930f4ae5deee3b4
+    layerID: 116
+    mosaicPosition: {x: 123, y: 36}
   - name: Samura-Rogue-Waist
     spriteName: Samura-Rogue-Waist
     isGroup: 0
-    parentIndex: 52
-    spriteID: e05c31691b47ae2468d51578c7524e8d
+    parentIndex: 51
+    spriteID: 164776391f623c1498f73ef753d33ed2
     layerID: 110
     mosaicPosition: {x: 92, y: 36}
   - name: Samura-Rogue-RightThigh
     spriteName: Samura-Rogue-RightThigh
     isGroup: 0
-    parentIndex: 52
-    spriteID: 98e580556e97b1c4b9d24d70d639272e
+    parentIndex: 51
+    spriteID: cad1e2981cbab134aaa107c3c0b7b3b4
     layerID: 112
-    mosaicPosition: {x: 164, y: 88}
+    mosaicPosition: {x: 164, y: 113}
   - name: Samura-Rogue-RightCalf
     spriteName: Samura-Rogue-RightCalf
     isGroup: 0
-    parentIndex: 52
-    spriteID: 352381318078dee4096392a15ea04422
+    parentIndex: 51
+    spriteID: 9648f4b169fc4b649940eb4ca52f44c3
     layerID: 111
-    mosaicPosition: {x: 72, y: 113}
+    mosaicPosition: {x: 4, y: 225}
   - name: Samura-Rogue-LeftThigh
     spriteName: Samura-Rogue-LeftThigh
     isGroup: 0
-    parentIndex: 52
-    spriteID: 7d013d1aa4f18394d9260dd485aaa5fd
+    parentIndex: 51
+    spriteID: e0ac9e891d070f24d87dfd43b103813b
     layerID: 108
-    mosaicPosition: {x: 181, y: 88}
+    mosaicPosition: {x: 198, y: 88}
   - name: Samura-Rogue-LeftCalf
     spriteName: Samura-Rogue-LeftCalf
     isGroup: 0
-    parentIndex: 52
-    spriteID: 2dbf7900377d14748b6ea3697d5fafae
+    parentIndex: 51
+    spriteID: 91651a16230169c429547b08ac4ffc68
     layerID: 109
-    mosaicPosition: {x: 32, y: 140}
+    mosaicPosition: {x: 66, y: 139}
   - name: Samurai-Rogue-LeftShoulder
     spriteName: Samurai-Rogue-LeftShoulder
     isGroup: 0
-    parentIndex: 52
-    spriteID: e141790d73bea494f8ef8f3c0f1d1ace
+    parentIndex: 51
+    spriteID: 1e057a3587e020a428b7c814237e1a7f
     layerID: 120
-    mosaicPosition: {x: 176, y: 113}
+    mosaicPosition: {x: 129, y: 113}
   - name: Samurai-Rogue-LeftForearm
     spriteName: Samurai-Rogue-LeftForearm
     isGroup: 0
-    parentIndex: 52
-    spriteID: d21c4b8c14495a5419bf7084bc2b30b9
+    parentIndex: 51
+    spriteID: d6157732313526b419222edbdb10babf
     layerID: 122
-    mosaicPosition: {x: 108, y: 166}
+    mosaicPosition: {x: 89, y: 166}
   - name: Baker-Rogue
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 137
     mosaicPosition: {x: 0, y: 0}
-  - name: Rogue-Head
-    spriteName: Rogue-Head
+  - name: Baker-Rogue-RightShoulder
+    spriteName: Baker-Rogue-RightShoulder
     isGroup: 0
-    parentIndex: 65
-    spriteID: 21d717624014e20459cc9591094ce2e7
-    layerID: 136
-    mosaicPosition: {x: 89, y: 64}
-  - name: Rogue-RightShoulder
-    spriteName: Rogue-RightShoulder
-    isGroup: 0
-    parentIndex: 65
-    spriteID: 144ef9360c0d5fe478274902566bb601
+    parentIndex: 64
+    spriteID: a8acf38ec970e1e4e8480b1996873b8a
     layerID: 135
-    mosaicPosition: {x: 42, y: 88}
-  - name: Rogue-RightForearm
-    spriteName: Rogue-RightForearm
+    mosaicPosition: {x: 45, y: 88}
+  - name: Baker-Rogue-RightForearm
+    spriteName: Baker-Rogue-RightForearm
     isGroup: 0
-    parentIndex: 65
-    spriteID: 3dd7f2c73b10238438158704eaa7446e
+    parentIndex: 64
+    spriteID: 6a9747f6f02221f4c93f8e941877a92a
     layerID: 134
-    mosaicPosition: {x: 56, y: 166}
-  - name: Rogue-Sword
-    spriteName: Rogue-Sword
+    mosaicPosition: {x: 37, y: 166}
+  - name: Baker-Rogue-Sword
+    spriteName: Baker-Rogue-Sword
     isGroup: 0
-    parentIndex: 65
-    spriteID: 69b5ea2a9355e7c45bbed57cad1dfcb1
+    parentIndex: 64
+    spriteID: dc51b3a1c43b3324eac35376d4ee3e71
     layerID: 133
     mosaicPosition: {x: 4, y: 4}
-  - name: Rogue-Chest
-    spriteName: Rogue-Chest
+  - name: Baker-Rogue-Chest
+    spriteName: Baker-Rogue-Chest
     isGroup: 0
-    parentIndex: 65
-    spriteID: f65e8580977505a4baa4d0533ec5642c
+    parentIndex: 64
+    spriteID: d635f58095be2e74196335f7e13782d5
     layerID: 127
     mosaicPosition: {x: 229, y: 4}
-  - name: Rogue-Waist
-    spriteName: Rogue-Waist
+  - name: Baker-Rogue-Head
+    spriteName: Baker-Rogue-Head
     isGroup: 0
-    parentIndex: 65
-    spriteID: d000018d5ab739147a3498338ed14da8
+    parentIndex: 64
+    spriteID: 1c1a71a348c09954e9c3d76a3ac423f7
+    layerID: 136
+    mosaicPosition: {x: 147, y: 36}
+  - name: Baker-Rogue-Waist
+    spriteName: Baker-Rogue-Waist
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 6f451e7fd7a3828489a2d5c72d6f6dfa
     layerID: 130
-    mosaicPosition: {x: 4, y: 64}
-  - name: Rogue-RightThigh
-    spriteName: Rogue-RightThigh
+    mosaicPosition: {x: 46, y: 64}
+  - name: Baker-Rogue-RightThigh
+    spriteName: Baker-Rogue-RightThigh
     isGroup: 0
-    parentIndex: 65
-    spriteID: 9c484258505194d40a1f5aa702edc64c
+    parentIndex: 64
+    spriteID: 24db9a29391cf89448bfce1a6d142ec4
     layerID: 132
-    mosaicPosition: {x: 87, y: 140}
-  - name: Rogue-RightCalf
-    spriteName: Rogue-RightCalf
+    mosaicPosition: {x: 164, y: 88}
+  - name: Baker-Rogue-RightCalf
+    spriteName: Baker-Rogue-RightCalf
     isGroup: 0
-    parentIndex: 65
-    spriteID: 88f65c8ba21f59846a0c204896dd57b9
+    parentIndex: 64
+    spriteID: 8240db21dcc65b542974963c0fc93a0e
     layerID: 131
-    mosaicPosition: {x: 89, y: 113}
-  - name: Rogue-LeftThigh
-    spriteName: Rogue-LeftThigh
+    mosaicPosition: {x: 24, y: 113}
+  - name: Baker-Rogue-LeftThigh
+    spriteName: Baker-Rogue-LeftThigh
     isGroup: 0
-    parentIndex: 65
-    spriteID: 33433f89ca9a36348812755daecfd9c9
+    parentIndex: 64
+    spriteID: 58b0fdb9e677a6848b38c5092e41d7e6
     layerID: 128
-    mosaicPosition: {x: 164, y: 140}
-  - name: Rogue-LeftCalf
-    spriteName: Rogue-LeftCalf
+    mosaicPosition: {x: 123, y: 139}
+  - name: Baker-Rogue-LeftCalf
+    spriteName: Baker-Rogue-LeftCalf
     isGroup: 0
-    parentIndex: 65
-    spriteID: 2d5553e4674df974593ec430a7d22c78
+    parentIndex: 64
+    spriteID: 4d1e7effbbdef3f49be19ae726fd4d18
     layerID: 129
-    mosaicPosition: {x: 46, y: 140}
-  - name: Rogue-LeftShoulder
-    spriteName: Rogue-LeftShoulder
+    mosaicPosition: {x: 80, y: 139}
+  - name: Baker-Rogue-LeftShoulder
+    spriteName: Baker-Rogue-LeftShoulder
     isGroup: 0
-    parentIndex: 65
-    spriteID: db26d2c07f9613245b67ae7a53da560f
+    parentIndex: 64
+    spriteID: 9ae4bc4053cf30a4c87c18e7abf0a3d5
     layerID: 126
-    mosaicPosition: {x: 59, y: 88}
-  - name: Rogue-LeftForearm
-    spriteName: Rogue-LeftForearm
+    mosaicPosition: {x: 62, y: 88}
+  - name: Baker-Rogue-LeftForearm
+    spriteName: Baker-Rogue-LeftForearm
     isGroup: 0
-    parentIndex: 65
-    spriteID: d5fe63eb2182a9943a9aaf328e404c72
+    parentIndex: 64
+    spriteID: 0f8963734bf60a54ebc68d392dc8e47f
     layerID: 125
-    mosaicPosition: {x: 69, y: 166}
+    mosaicPosition: {x: 50, y: 166}
   - name: Viking-Rogue
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 
     layerID: 152
     mosaicPosition: {x: 0, y: 0}
-  - name: Viking-Rogue-Head
-    spriteName: Viking-Rogue-Head
-    isGroup: 0
-    parentIndex: 78
-    spriteID: d0eb150421e98bc44af861aa6a4c6b76
-    layerID: 153
-    mosaicPosition: {x: 131, y: 64}
   - name: Viking-Rogue-RightShoulder
     spriteName: Viking-Rogue-RightShoulder
     isGroup: 0
-    parentIndex: 78
-    spriteID: 5378a8b3787a2874783a3d68116643c0
+    parentIndex: 77
+    spriteID: 592d14e0cdb20184fa6cd720c54ed023
     layerID: 150
-    mosaicPosition: {x: 76, y: 88}
+    mosaicPosition: {x: 79, y: 88}
   - name: Viking-Rogue-RightForearm
     spriteName: Viking-Rogue-RightForearm
     isGroup: 0
-    parentIndex: 78
-    spriteID: fa660840d927fc544862bde65320a02a
+    parentIndex: 77
+    spriteID: 7334ec9eba6650a44a5a2f953957da24
     layerID: 149
-    mosaicPosition: {x: 82, y: 166}
+    mosaicPosition: {x: 63, y: 166}
   - name: Viking-Rogue-Sword
     spriteName: Viking-Rogue-Sword
     isGroup: 0
-    parentIndex: 78
-    spriteID: 3d3bdae2568efc34c93ab10dbe286bf5
+    parentIndex: 77
+    spriteID: 34d104c5b8cd62f42999fcbbadeeedfa
     layerID: 158
     mosaicPosition: {x: 48, y: 36}
   - name: Viking-Rogue-Chest
     spriteName: Viking-Rogue-Chest
     isGroup: 0
-    parentIndex: 78
-    spriteID: d99294d5d4193a14ba31b12c5577b17e
+    parentIndex: 77
+    spriteID: db78a3df75435b94a944fe67b0ee5d5f
     layerID: 142
-    mosaicPosition: {x: 110, y: 64}
+    mosaicPosition: {x: 131, y: 64}
+  - name: Viking-Rogue-Head
+    spriteName: Viking-Rogue-Head
+    isGroup: 0
+    parentIndex: 77
+    spriteID: 868feb72f29269b4dbf440be6d9b536b
+    layerID: 153
+    mosaicPosition: {x: 168, y: 36}
   - name: Viking-Rogue-Waist
     spriteName: Viking-Rogue-Waist
     isGroup: 0
-    parentIndex: 78
-    spriteID: e8f59a9ff31e7c44f9503bdb990784c3
+    parentIndex: 77
+    spriteID: c70359b00f81989499373f29509b0957
     layerID: 145
-    mosaicPosition: {x: 157, y: 64}
+    mosaicPosition: {x: 152, y: 64}
   - name: Viking-Rogue-RightThigh
     spriteName: Viking-Rogue-RightThigh
     isGroup: 0
-    parentIndex: 78
-    spriteID: 286190e030d822941bdde5033f6d1fd4
+    parentIndex: 77
+    spriteID: eef5998028a892f4abd02797a7e89511
     layerID: 147
-    mosaicPosition: {x: 103, y: 140}
+    mosaicPosition: {x: 181, y: 88}
   - name: Viking-Rogue-RightCalf
     spriteName: Viking-Rogue-RightCalf
     isGroup: 0
-    parentIndex: 78
-    spriteID: 9531727448458c7428b4c0f6934d5a9f
+    parentIndex: 77
+    spriteID: 6af93946c57d2cc44b91e63cc7e60abe
     layerID: 146
-    mosaicPosition: {x: 106, y: 113}
+    mosaicPosition: {x: 41, y: 113}
   - name: Viking-Rogue-LeftThigh
     spriteName: Viking-Rogue-LeftThigh
     isGroup: 0
-    parentIndex: 78
-    spriteID: 427a22c169f5bf84c9a31a53bf220364
+    parentIndex: 77
+    spriteID: 1096a4a5a414dbd43a7b8ab5ada2a890
     layerID: 143
-    mosaicPosition: {x: 179, y: 140}
+    mosaicPosition: {x: 138, y: 139}
   - name: Viking-Rogue-LeftCalf
     spriteName: Viking-Rogue-LeftCalf
     isGroup: 0
-    parentIndex: 78
-    spriteID: 31d44352fbf38f54bb93f57d6f568113
+    parentIndex: 77
+    spriteID: ddfeb97408ea58740aed48b8d12aa7d4
     layerID: 144
-    mosaicPosition: {x: 60, y: 140}
+    mosaicPosition: {x: 94, y: 139}
   - name: Viking-Rogue-LeftShoulder
     spriteName: Viking-Rogue-LeftShoulder
     isGroup: 0
-    parentIndex: 78
-    spriteID: e1316e7f05e53284bb952315dee25b50
+    parentIndex: 77
+    spriteID: 54e55e06f6f6fff4ea7d68387d3af2bf
     layerID: 155
-    mosaicPosition: {x: 93, y: 88}
+    mosaicPosition: {x: 96, y: 88}
   - name: Viking-Rogue-LeftForearm
     spriteName: Viking-Rogue-LeftForearm
     isGroup: 0
-    parentIndex: 78
-    spriteID: 93f01f845b27fa2428804af4676e18e5
+    parentIndex: 77
+    spriteID: e2d39024ad282bc4ea0a9f3ce3ee63bc
     layerID: 157
-    mosaicPosition: {x: 95, y: 166}
+    mosaicPosition: {x: 76, y: 166}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: Rogue-Models Texture
-  prefabAssetName: Rogue-Models Prefab
-  spriteLibAssetName: Rogue-Models Sprite Lib
+  textureAssetName: Character-Models Texture
+  prefabAssetName: Character-Models Prefab
+  spriteLibAssetName: Character-Models Sprite Lib
   secondarySpriteTextures: []
