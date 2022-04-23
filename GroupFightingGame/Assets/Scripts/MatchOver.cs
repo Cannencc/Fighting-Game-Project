@@ -7,7 +7,6 @@ using UnityEngine.InputSystem;
 public class MatchOver : MonoBehaviour
 {
     public GameObject MatchOverUI;
-    public static int MatchOverFlag = 0;
 
     // Different scene loads per map
     public void RematchTaiga()
@@ -30,7 +29,7 @@ public class MatchOver : MonoBehaviour
 
     public void RematchTraining()
     {
-        SceneManager.LoadScene("TrainingLevel1");
+        SceneManager.LoadScene("TrainingLevel");
         battleMusic.instance.GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
         MatchOverUI.SetActive(false);
@@ -65,7 +64,7 @@ public class MatchOver : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if(RoundTimer.roundCount >= 4 || RoundTimer.P1_WIN >= 2 || RoundTimer.P2_WIN >= 2)
+        if(PlayerControllerTest.P1currentHealth <= 0 || PlayerControllerTest.P2currentHealth <= 0 || Countdown.currentT == 0)
         {
             battleMusic.instance.GetComponent<AudioSource>().Stop();
             SoundManagerScript.PlaySound("roundEnd");
@@ -74,11 +73,6 @@ public class MatchOver : MonoBehaviour
             Countdown.currentT = 60f;
             PlayerControllerTest.P1currentHealth = 100;
             PlayerControllerTest.P2currentHealth = 100;
-            RoundTimer.currentRound = 1f;
-            RoundTimer.roundCount = 1f;
-            RoundTimer.P1_WIN = 0;
-            RoundTimer.P2_WIN = 0;
-            MatchOverFlag = 1;
         }
 
     }
