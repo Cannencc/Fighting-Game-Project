@@ -2986,10 +2986,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPrefabs:
-  - {fileID: 5449304494981682632, guid: 3cd148bd1e0f07741bed7284eaf346ca, type: 3}
-  - {fileID: 4124988857813369536, guid: 2b763a1cfca036146b45354668ba0e16, type: 3}
+  - {fileID: 939348432324201948, guid: 62bc773c03631b1438a8b933832582ef, type: 3}
+  - {fileID: 9120014242618197269, guid: 96679b39ada93a0438397d9adb3e3f8f, type: 3}
+  - {fileID: 3880871013141746659, guid: 02aa4f3415fb22e4a8170503d2def536, type: 3}
+  - {fileID: 5402674003613030238, guid: 2bdb2b50685ec8e4bba9593a4690f0b3, type: 3}
+  - {fileID: 8605699663955519115, guid: caf47604a40893f42a5b238e407ff728, type: 3}
+  - {fileID: 8270901595367349885, guid: f15846905a259ba419282bd1958e6d8c, type: 3}
+  - {fileID: 3646564834397124926, guid: aeea19476c2c7a04daf09419acd8810f, type: 3}
   skinPrefabs:
-  - {fileID: 1046725994}
+  - {fileID: 6939804535535110769, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
   - {fileID: 6849296820367475815, guid: c8b9324b595d8cf498c61d8d948ed45e, type: 3}
   parent: {fileID: 1288000765}
   spawn: {x: 0, y: 0, z: 0}
@@ -15870,6 +15875,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
     m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 962548660}
+        m_TargetAssemblyTypeName: PlayerControllerTest, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8aaf02af-fa11-45d8-9f2f-46a40d67daa8
+    m_ActionName: Player2/P2 Light Attack[/Keyboard/numpadPlus]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
@@ -16152,11 +16173,6 @@ SpriteRenderer:
 --- !u!4 &1046725993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2863806689681634778, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
-  m_PrefabInstance: {fileID: 5250571448514671508}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1046725994 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6939804535535110769, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
   m_PrefabInstance: {fileID: 5250571448514671508}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1049941413
@@ -17817,9 +17833,25 @@ MonoBehaviour:
     m_ActionId: 4e39dad0-057d-45b3-a31e-9fc163f99ed6
     m_ActionName: Player2/P2 Right Shift (Hit Test)[/Keyboard/rightShift]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288000761}
+        m_TargetAssemblyTypeName: PlayerControllerTest, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: dca58647-afac-49b2-ae4f-e4fc08dd3189
     m_ActionName: Player1/P1 Light Attack[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8aaf02af-fa11-45d8-9f2f-46a40d67daa8
+    m_ActionName: Player2/P2 Light Attack[/Keyboard/numpadPlus]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player1
@@ -20334,10 +20366,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPrefabs:
-  - {fileID: 5449304494981682632, guid: 3cd148bd1e0f07741bed7284eaf346ca, type: 3}
-  - {fileID: 4124988857813369536, guid: 2b763a1cfca036146b45354668ba0e16, type: 3}
+  - {fileID: 939348432324201948, guid: 62bc773c03631b1438a8b933832582ef, type: 3}
+  - {fileID: 9120014242618197269, guid: 96679b39ada93a0438397d9adb3e3f8f, type: 3}
+  - {fileID: 3880871013141746659, guid: 02aa4f3415fb22e4a8170503d2def536, type: 3}
+  - {fileID: 5402674003613030238, guid: 2bdb2b50685ec8e4bba9593a4690f0b3, type: 3}
+  - {fileID: 8605699663955519115, guid: caf47604a40893f42a5b238e407ff728, type: 3}
+  - {fileID: 8270901595367349885, guid: f15846905a259ba419282bd1958e6d8c, type: 3}
+  - {fileID: 3646564834397124926, guid: aeea19476c2c7a04daf09419acd8810f, type: 3}
   skinPrefabs:
-  - {fileID: 1046725994}
+  - {fileID: 6939804535535110769, guid: 98361dc57c2f1bc4aae065b5c41f53e5, type: 3}
   - {fileID: 6849296820367475815, guid: c8b9324b595d8cf498c61d8d948ed45e, type: 3}
   parent: {fileID: 962548664}
   spawn: {x: 0, y: 0, z: 0}

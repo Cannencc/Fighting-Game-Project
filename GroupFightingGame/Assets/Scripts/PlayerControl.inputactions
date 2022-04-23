@@ -163,6 +163,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "P2 Light Attack",
+                    "type": "Button",
+                    "id": "8aaf02af-fa11-45d8-9f2f-46a40d67daa8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -240,6 +249,17 @@
                     "processors": "",
                     "groups": "Keyboard 1;Keyboard 2",
                     "action": "P2 Right Shift (Hit Test)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07fb1fe5-8c45-43af-8469-0fdd819b121c",
+                    "path": "<Keyboard>/numpadPlus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard 1;Keyboard 2",
+                    "action": "P2 Light Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
